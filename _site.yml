@@ -1,0 +1,12 @@
+name: "rconf"
+title: "R Conference 2021"
+description: |
+  R 컨퍼런스 2021 서울에서 만나요. 
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article

@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-05-27T23:28:41+09:00"
+    },
+    {
+      "path": "index.html",
+      "title": "R Conference 2021",
+      "description": "가즈아~~~\n",
+      "author": [],
+      "contents": "\r\n준비인원\r\n류충현\r\n이광춘\r\n김영우\r\n나성호\r\n이봉호\r\n첫 모임 (2021-05-27)\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-05-27T23:28:42+09:00"
+    }
+  ],
+  "collections": []
+}

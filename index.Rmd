@@ -1,0 +1,27 @@
+---
+title: "R Conference 2021"
+description: |
+  가즈아~~~
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+```
+
+# 준비인원
+
+- 류충현
+- 이광춘
+- 김영우
+- 나성호
+- 이봉호 
+
+# 첫 모임 (2021-05-27)
+
