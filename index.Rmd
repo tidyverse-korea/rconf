@@ -3,7 +3,7 @@ title: "useR 2021 Korea"
 description: |
   코로나19로 촉발된 뉴노멀 시대 디지털 경제전환과 함께하는 애자일 R !  
 site: distill::distill_website
-google_analytics: "G-5G08G6NLM1"
+google_analytics: "UA-59802572-24"
 ---
 
 ```{r setup, include=FALSE}
