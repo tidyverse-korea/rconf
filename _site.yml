@@ -3,6 +3,7 @@ title: "useR! 2021 Korea"
 description: |
   "useR! Korea, R Conference 2021"
 output_dir: "docs"
+google_analytics: "UA-59802572-24"
 navbar:
   right:
     - text: "Home"
