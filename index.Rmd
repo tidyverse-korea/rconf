@@ -27,6 +27,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - Gold
 - Silver
 - Bronze
+    - [![](fig/openup_logo.png){width=30%}](https://www.oss.kr/)
 - Violet
 - Media
 
