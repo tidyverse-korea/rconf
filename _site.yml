@@ -5,6 +5,9 @@ description: |
 output_dir: "docs"
 google_analytics: "UA-59802572-24"
 navbar:
+  logo:
+    image: fig/useR_Korea.png
+    href: https://use-r.kr
   right:
     - text: "Home"
       href: index.html

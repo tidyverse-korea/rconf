@@ -5,48 +5,48 @@
       "title": "About this site",
       "description": "Some additional details about the website",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2021-06-18T15:01:49+09:00"
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-19T11:28:51+09:00"
     },
     {
       "path": "coc.html",
       "title": "Code of Conduct",
       "description": "Some additional details about the website",
       "author": [],
-      "contents": "\nTBA\n\n\n\n",
-      "last_modified": "2021-06-18T15:01:50+09:00"
+      "contents": "\r\nTBA\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-19T11:28:52+09:00"
     },
     {
       "path": "contact.html",
       "title": "Contact",
       "description": "Some additional details about the website",
       "author": [],
-      "contents": "\nTBA\n\n\n\n",
-      "last_modified": "2021-06-18T15:01:50+09:00"
+      "contents": "\r\nTBA\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-19T11:28:53+09:00"
     },
     {
       "path": "index.html",
       "title": "useR 2021 Korea",
       "description": "코로나19로 촉발된 뉴노멀 시대 디지털 경제전환과 함께하는 애자일 R !  \n",
       "author": [],
-      "contents": "\nDate and Location\nDate: 2021년 11월 19일(금) 10:00 ~ 17:00\nLocation: [잠정] Open UP 컨퍼런스룸 (서울시 강남구 테헤란로 431 저스트코 타워 13층)\nNews\n[2021-06-19] useR 2021 Korea 장소 섭외 중 (Open UP 등)\n[2021-06-15] R 컨퍼런스 명칭 확정: useR 2021 Korea\n[2021-06-10] R 컨퍼런스 일시 확정: 11월 19일\nSponsors\nPlatinum\nGold\nSilver\nBronze\n\n\nViolet\nMedia\nSNS\nR is an open source software and programming language for data ingestion, data processing, exploratory data analysis, statistical modeling, visualization and machine learning among other things. The Tidyverse Seoul R meetup brings together local users of R and featuring talks with world-class speakers while creating fruitful networking opportunities for its members.\nGlobal R Meetup: link\nTidyverse Seoul R Meetup: link\nYoutube Channel: link\nFacebook Group: link\nSeoul R Meetup: link\nShiny Seoul Meetup: link\n\n\n\n",
-      "last_modified": "2021-06-18T15:01:50+09:00"
+      "contents": "\r\nDate and Location\r\nDate: 2021년 11월 19일(금) 10:00 ~ 17:00\r\nLocation: [잠정] Open UP 컨퍼런스룸 (서울시 강남구 테헤란로 431 저스트코 타워 13층)\r\nNews\r\n[2021-06-20] useR 2021 Korea 로고 제작:\r\n\r\n\r\n[2021-06-19] useR 2021 Korea 장소 섭외 중 (Open UP 등)\r\n[2021-06-15] R 컨퍼런스 명칭 확정: useR 2021 Korea\r\n[2021-06-10] R 컨퍼런스 일시 확정: 11월 19일\r\nSponsors\r\nPlatinum\r\nGold\r\nSilver\r\nBronze\r\n\r\n\r\nViolet\r\nMedia\r\nSNS\r\nR is an open source software and programming language for data ingestion, data processing, exploratory data analysis, statistical modeling, visualization and machine learning among other things. The Tidyverse Seoul R meetup brings together local users of R and featuring talks with world-class speakers while creating fruitful networking opportunities for its members.\r\nGlobal R Meetup: link\r\nTidyverse Seoul R Meetup: link\r\nYoutube Channel: link\r\nFacebook Group: link\r\nSeoul R Meetup: link\r\nShiny Seoul Meetup: link\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-19T11:28:54+09:00"
     },
     {
       "path": "program.html",
       "title": "Program",
       "description": "Two or Three Keynotes and three to six R tracks\n",
       "author": [],
-      "contents": "\n프로그램\n\n\n\n\n\n{\"x\":{\"tag\":{\"name\":\"Reactable\",\"attribs\":{\"data\":{\"시간\":[\"09 : 00\",\"10 : 00\",\"11 : 00\",\"12 : 00\"],\"프로그램\":[\"등록\",\"Keynote #01\",\"Keynote #02\",\"점심시간\"]},\"columns\":[{\"accessor\":\"시간\",\"name\":\"시간\",\"type\":[\"glue\",\"character\"],\"minWidth\":50},{\"accessor\":\"프로그램\",\"name\":\"프로그램\",\"type\":\"character\",\"minWidth\":450,\"align\":\"center\"}],\"defaultPageSize\":10,\"paginationType\":\"numbers\",\"showPageInfo\":true,\"minRows\":1,\"dataKey\":\"90ab98f66b9f52600929b3bcee2348b6\",\"key\":\"90ab98f66b9f52600929b3bcee2348b6\"},\"children\":[]},\"class\":\"reactR_markup\"},\"evals\":[],\"jsHooks\":[]}\n{\"x\":{\"tag\":{\"name\":\"Reactable\",\"attribs\":{\"data\":{\"시간\":[\"13 : 00\",\"13 : 30\",\"14 : 00\",\"14 : 30\"],\"Reproducible Research\":[\"RR #01\",\"RR #02\",\"RR #03\",\"RR #04\"],\"R Meets Python\":[\"RPy #01\",\"RPy #02\",\"RPy #03\",\"RPy #04\"],\"Deep Learning\":[\"DL #01\",\"DL #02\",\"DL #03\",\"DL #04\"]},\"columns\":[{\"accessor\":\"시간\",\"name\":\"시간\",\"type\":[\"glue\",\"character\"],\"minWidth\":50},{\"accessor\":\"Reproducible Research\",\"name\":\"Reproducible Research\",\"type\":\"character\",\"minWidth\":150},{\"accessor\":\"R Meets Python\",\"name\":\"R Meets Python\",\"type\":\"character\",\"minWidth\":150},{\"accessor\":\"Deep Learning\",\"name\":\"Deep Learning\",\"type\":\"character\",\"minWidth\":150}],\"defaultPageSize\":10,\"paginationType\":\"numbers\",\"showPageInfo\":true,\"minRows\":1,\"dataKey\":\"a59e255da24eada58b17da12275ebe45\",\"key\":\"a59e255da24eada58b17da12275ebe45\"},\"children\":[]},\"class\":\"reactR_markup\"},\"evals\":[],\"jsHooks\":[]}\n{\"x\":{\"tag\":{\"name\":\"Reactable\",\"attribs\":{\"data\":{\"시간\":[\"15 : 30\",\"16 : 00\",\"16 : 30\",\"17 : 00\"],\"Reproducible Research\":[\"RR #05\",\"RR #06\",\"RR #07\",\"RR #08\"],\"R Meets Python\":[\"RPy #05\",\"RPy #06\",\"RPy #07\",\"RPy #08\"],\"Deep Learning\":[\"DL #05\",\"DL #06\",\"DL #07\",\"DL #08\"]},\"columns\":[{\"accessor\":\"시간\",\"name\":\"시간\",\"type\":[\"glue\",\"character\"],\"minWidth\":50},{\"accessor\":\"Reproducible Research\",\"name\":\"Reproducible Research\",\"type\":\"character\",\"minWidth\":150},{\"accessor\":\"R Meets Python\",\"name\":\"R Meets Python\",\"type\":\"character\",\"minWidth\":150},{\"accessor\":\"Deep Learning\",\"name\":\"Deep Learning\",\"type\":\"character\",\"minWidth\":150}],\"defaultPageSize\":10,\"paginationType\":\"numbers\",\"showPageInfo\":true,\"minRows\":1,\"dataKey\":\"ca2444f90e95ac76d94255ce1e75b182\",\"key\":\"ca2444f90e95ac76d94255ce1e75b182\"},\"children\":[]},\"class\":\"reactR_markup\"},\"evals\":[],\"jsHooks\":[]}\n\n\n\n",
-      "last_modified": "2021-06-18T15:01:54+09:00"
+      "contents": "\r\n프로그램\r\n\r\n\r\n\r\n\r\n\r\n{\"x\":{\"tag\":{\"name\":\"Reactable\",\"attribs\":{\"data\":{\"시간\":[\"09 : 00\",\"10 : 00\",\"11 : 00\",\"12 : 00\"],\"프로그램\":[\"등록\",\"Keynote #01\",\"Keynote #02\",\"점심시간\"]},\"columns\":[{\"accessor\":\"시간\",\"name\":\"시간\",\"type\":[\"glue\",\"character\"],\"minWidth\":50},{\"accessor\":\"프로그램\",\"name\":\"프로그램\",\"type\":\"character\",\"minWidth\":450,\"align\":\"center\"}],\"defaultPageSize\":10,\"paginationType\":\"numbers\",\"showPageInfo\":true,\"minRows\":1,\"dataKey\":\"90ab98f66b9f52600929b3bcee2348b6\",\"key\":\"90ab98f66b9f52600929b3bcee2348b6\"},\"children\":[]},\"class\":\"reactR_markup\"},\"evals\":[],\"jsHooks\":[]}\r\n{\"x\":{\"tag\":{\"name\":\"Reactable\",\"attribs\":{\"data\":{\"시간\":[\"13 : 00\",\"13 : 30\",\"14 : 00\",\"14 : 30\"],\"Reproducible Research\":[\"RR #01\",\"RR #02\",\"RR #03\",\"RR #04\"],\"R Meets Python\":[\"RPy #01\",\"RPy #02\",\"RPy #03\",\"RPy #04\"],\"Deep Learning\":[\"DL #01\",\"DL #02\",\"DL #03\",\"DL #04\"]},\"columns\":[{\"accessor\":\"시간\",\"name\":\"시간\",\"type\":[\"glue\",\"character\"],\"minWidth\":50},{\"accessor\":\"Reproducible Research\",\"name\":\"Reproducible Research\",\"type\":\"character\",\"minWidth\":150},{\"accessor\":\"R Meets Python\",\"name\":\"R Meets Python\",\"type\":\"character\",\"minWidth\":150},{\"accessor\":\"Deep Learning\",\"name\":\"Deep Learning\",\"type\":\"character\",\"minWidth\":150}],\"defaultPageSize\":10,\"paginationType\":\"numbers\",\"showPageInfo\":true,\"minRows\":1,\"dataKey\":\"39ba58e4572eb35120b00a2d90adada8\",\"key\":\"39ba58e4572eb35120b00a2d90adada8\"},\"children\":[]},\"class\":\"reactR_markup\"},\"evals\":[],\"jsHooks\":[]}\r\n{\"x\":{\"tag\":{\"name\":\"Reactable\",\"attribs\":{\"data\":{\"시간\":[\"15 : 30\",\"16 : 00\",\"16 : 30\",\"17 : 00\"],\"Reproducible Research\":[\"RR #05\",\"RR #06\",\"RR #07\",\"RR #08\"],\"R Meets Python\":[\"RPy #05\",\"RPy #06\",\"RPy #07\",\"RPy #08\"],\"Deep Learning\":[\"DL #05\",\"DL #06\",\"DL #07\",\"DL #08\"]},\"columns\":[{\"accessor\":\"시간\",\"name\":\"시간\",\"type\":[\"glue\",\"character\"],\"minWidth\":50},{\"accessor\":\"Reproducible Research\",\"name\":\"Reproducible Research\",\"type\":\"character\",\"minWidth\":150},{\"accessor\":\"R Meets Python\",\"name\":\"R Meets Python\",\"type\":\"character\",\"minWidth\":150},{\"accessor\":\"Deep Learning\",\"name\":\"Deep Learning\",\"type\":\"character\",\"minWidth\":150}],\"defaultPageSize\":10,\"paginationType\":\"numbers\",\"showPageInfo\":true,\"minRows\":1,\"dataKey\":\"50c8fa93af39e36fd6d42d3486e9593c\",\"key\":\"50c8fa93af39e36fd6d42d3486e9593c\"},\"children\":[]},\"class\":\"reactR_markup\"},\"evals\":[],\"jsHooks\":[]}\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-19T11:28:59+09:00"
     },
     {
       "path": "registration.html",
       "title": "Registartion",
       "description": "Some additional details about the website",
       "author": [],
-      "contents": "\nTBA\n\n\n\n",
-      "last_modified": "2021-06-18T15:01:54+09:00"
+      "contents": "\r\nTBA\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-19T11:29:00+09:00"
     }
   ],
   "collections": []
