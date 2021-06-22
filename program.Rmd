@@ -32,10 +32,12 @@ session_01_tbl <- program_tbl %>%
   mutate(시간 = glue::glue("{str_pad(hour(시간), width=2, pad= 0)} : {str_pad(minute(시간), width=2, pad= 0)}"))
 
 session_02_tbl <- program_tbl %>% 
-  slice(11:n()) %>%
-  set_names(c("시간", "Reproducible Research", "R Meets Python", "Deep Learning")) %>% 
+  slice(12:n()) %>%
+  set_names(c("시간", "Data Journalism", "Visualization", "Natural Language Processing")) %>% 
   mutate(시간 = glue::glue("{str_pad(hour(시간), width=2, pad= 0)} : {str_pad(minute(시간), width=2, pad= 0)}"))
 ```
+
+## Keynotes
 
 ```{r keynote-reactable}
 library(reactable)
@@ -46,7 +48,11 @@ keynote_tbl %>%
          `시간`                 = colDef(minWidth =  50),
          `프로그램`             = colDef(minWidth =  450, align = "center")
   ))
+```
 
+## 오후 전반부
+
+```{r keynote-reactable-session-A}
 session_01_tbl %>% 
     reactable::reactable(  
       columns = list(
@@ -55,14 +61,18 @@ session_01_tbl %>%
         `R Meets Python`        = colDef(minWidth = 150),
         `Deep Learning`         = colDef(minWidth = 150)
   ))
+```
 
+## 오후 후반부
+
+```{r keynote-reactable-session-B}
 session_02_tbl %>% 
     reactable::reactable(  
       columns = list(
          `시간`                 = colDef(minWidth =  50),
-        `Reproducible Research` = colDef(minWidth = 150),
-        `R Meets Python`        = colDef(minWidth = 150),
-        `Deep Learning`         = colDef(minWidth = 150)
+        `Data Journalism` = colDef(minWidth = 150),
+        `Visualization`        = colDef(minWidth = 150),
+        `Natural Language Processing`         = colDef(minWidth = 150)
   ))
 ```
 

@@ -17,20 +17,36 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # News
 
+-   [2021-06-22] 제이펍 스폰서
+
+    -   ![](fig/jpub-logo.jpeg){width="159" height="85"}
+
 -   [2021-06-20] `useR 2021 Korea` 로고 제작:
+
     -   ![](fig/useR_Korea.png){width="119" height="117"}
+
 -   [2021-06-19] `useR 2021 Korea` 장소 섭외 중 (Open UP 등)
+
 -   [2021-06-15] R 컨퍼런스 명칭 확정: `useR 2021 Korea`
+
 -   [2021-06-10] R 컨퍼런스 일시 확정: 11월 19일
 
 # Sponsors
 
 -   Platinum
+
 -   Gold
+
 -   Silver
+
 -   Bronze
+
     -   [![](fig/openup_logo.png){width="30%"}](https://www.oss.kr/)
+
 -   Violet
+
+    -   [![](fig/jpub-logo.jpeg){width="159" height="85"}](https://jpub.tistory.com/)
+
 -   Media
 
 # SNS
