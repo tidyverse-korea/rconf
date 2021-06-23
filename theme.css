@@ -70,10 +70,10 @@ d-appendix {
 }
 
 .distill-site-footer {
-  --text-color:       rgba(255, 255, 255, 0.8);
+  --text-color:       #7e7b88;                   /* edited */
   --text-size:        15px;
   --hover-color:      white;
-  --bkgd-color:       #0F2E3D;
+  --bkgd-color:       #a3d9ff;                 /* edited */
 }
 
 
