@@ -1,0 +1,33 @@
+name: "rconf"
+title: "useR! 2021 Korea"
+description: |
+  "useR! Korea, R Conference 2021"
+output_dir: "docs"
+google_analytics: "UA-59802572-24"
+theme: theme.css
+navbar:
+  logo:
+    image: fig/useR_Korea.png
+    href: https://use-r.kr
+  search: true  
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Key Dates"
+      href: key_dates.html
+    - text: "Program"
+      href: program.html
+    - text: "Registration"
+      href: registration.html
+    - text: "Code of Conduct"
+      href: coc.html
+    - text: "Jobs"
+      href: jobs.html
+    - text: "Contact"
+      href: contact.html
+output: 
+  distill::distill_article:
+    include:
+      after_body: _footer.html
