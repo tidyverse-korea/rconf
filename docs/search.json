@@ -6,7 +6,7 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-30T21:12:15+09:00"
+      "last_modified": "2021-07-02T20:38:22+09:00"
     },
     {
       "path": "coc.html",
@@ -14,7 +14,7 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\nTBA\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-30T21:12:16+09:00"
+      "last_modified": "2021-07-02T20:38:23+09:00"
     },
     {
       "path": "contact.html",
@@ -22,15 +22,15 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\nTBA\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-30T21:12:17+09:00"
+      "last_modified": "2021-07-02T20:38:25+09:00"
     },
     {
       "path": "index.html",
       "title": "useR 2021 Korea",
       "description": "코로나19로 촉발된 뉴노멀 시대 디지털 경제전환과 함께하는 애자일 R !  \n",
       "author": [],
-      "contents": "\r\nDate and Location\r\nDate: 2021년 11월 19일(금) 10:00 ~ 17:00\r\nLocation: [잠정] Open UP 컨퍼런스룸 (서울시 강남구 테헤란로 431 저스트코 타워 13층)\r\nNews\r\n[2021-07-02] useR 2021 Korea 웹사이트 Hands-on 코딩 !!!\r\nfesta 이벤트\r\n\r\n[2021-06-30] useR 2021 Korea 컨퍼런스 포스터 초안 준비\r\nposter 브랜치\r\n\r\n[2021-06-22] 제이펍 스폰서\r\n\r\n\r\n[2021-06-20] useR 2021 Korea 로고 제작:\r\n\r\n\r\n[2021-06-19] useR 2021 Korea 장소 섭외 중 (Open UP 등)\r\n[2021-06-15] R 컨퍼런스 명칭 확정: useR 2021 Korea\r\n[2021-06-10] R 컨퍼런스 일시 확정: 11월 19일\r\nSponsors\r\nPlatinum\r\nGold\r\nSilver\r\nBronze\r\n\r\n\r\nViolet\r\n\r\n\r\nMedia\r\nSNS\r\nR is an open source software and programming language for data ingestion, data processing, exploratory data analysis, statistical modeling, visualization and machine learning among other things. The Tidyverse Seoul R meetup brings together local users of R and featuring talks with world-class speakers while creating fruitful networking opportunities for its members.\r\nGlobal R Meetup: link\r\nTidyverse Seoul R Meetup: link\r\nYoutube Channel: link\r\nFacebook Group: link\r\nSeoul R Meetup: link\r\nShiny Seoul Meetup: link\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-30T21:12:19+09:00"
+      "contents": "\r\nDate and Location\r\nDate: 2021년 11월 19일(금) 10:00 ~ 17:00\r\nLocation: [잠정] Open UP 컨퍼런스룸 (서울시 강남구 테헤란로 431 저스트코 타워 13층)\r\nNews\r\n[2021-07-02] useR 2021 Korea 웹사이트 Hands-on 코딩 !!!\r\nfesta 이벤트\r\n\r\n[2021-07-01] Julia Silge Keynote 발표 수락 !!!\r\n\r\n\r\n[2021-06-30] useR 2021 Korea 컨퍼런스 포스터 초안 준비\r\nposter 브랜치\r\n\r\n[2021-06-22] 제이펍 스폰서\r\n\r\n\r\n[2021-06-20] useR 2021 Korea 로고 제작:\r\n\r\n\r\n[2021-06-19] useR 2021 Korea 장소 섭외 중 (Open UP 등)\r\n[2021-06-15] R 컨퍼런스 명칭 확정: useR 2021 Korea\r\n[2021-06-10] R 컨퍼런스 일시 확정: 11월 19일\r\nSponsors\r\nPlatinum\r\nGold\r\nSilver\r\nBronze\r\n\r\n\r\nViolet\r\n\r\n\r\nMedia\r\nSNS\r\nR is an open source software and programming language for data ingestion, data processing, exploratory data analysis, statistical modeling, visualization and machine learning among other things. The Tidyverse Seoul R meetup brings together local users of R and featuring talks with world-class speakers while creating fruitful networking opportunities for its members.\r\nGlobal R Meetup: link\r\nTidyverse Seoul R Meetup: link\r\nYoutube Channel: link\r\nFacebook Group: link\r\nSeoul R Meetup: link\r\nShiny Seoul Meetup: link\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-07-02T20:38:26+09:00"
     },
     {
       "path": "jobs.html",
@@ -38,7 +38,7 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\nTBA\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-30T21:12:20+09:00"
+      "last_modified": "2021-07-02T20:38:28+09:00"
     },
     {
       "path": "key_dates.html",
@@ -46,7 +46,7 @@
       "description": "`useR! 2021 Korea` 컨퍼런스 주요 일정",
       "author": [],
       "contents": "\r\n2021-07-15 프로그램 발표자 모집 시작\r\n2021-09-10 프로그램 발표자 및 발표내용 공개\r\n2021-09-17 컨퍼런스 행사 등록 시작\r\n2021-11-05 발표하시는 분 동영상, 논문 등 발표자료 송부 마감일\r\n2021-11-12 컨퍼런스 등록 마감\r\n2021-11-19 컨퍼런스 본 행사\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-30T21:12:21+09:00"
+      "last_modified": "2021-07-02T20:38:29+09:00"
     },
     {
       "path": "program.html",
@@ -54,7 +54,7 @@
       "description": "Two or Three Keynotes and three to six R tracks\n",
       "author": [],
       "contents": "\r\n프로그램\r\n\r\n\r\n\r\nKeynotes\r\n\r\n\r\n{\"x\":{\"tag\":{\"name\":\"Reactable\",\"attribs\":{\"data\":{\"시간\":[\"09 : 00\",\"10 : 00\",\"11 : 00\",\"12 : 00\"],\"프로그램\":[\"등록\",\"Keynote #01\",\"Keynote #02\",\"점심시간\"]},\"columns\":[{\"accessor\":\"시간\",\"name\":\"시간\",\"type\":[\"glue\",\"character\"],\"minWidth\":50},{\"accessor\":\"프로그램\",\"name\":\"프로그램\",\"type\":\"character\",\"minWidth\":450,\"align\":\"center\"}],\"defaultPageSize\":10,\"paginationType\":\"numbers\",\"showPageInfo\":true,\"minRows\":1,\"dataKey\":\"90ab98f66b9f52600929b3bcee2348b6\",\"key\":\"90ab98f66b9f52600929b3bcee2348b6\"},\"children\":[]},\"class\":\"reactR_markup\"},\"evals\":[],\"jsHooks\":[]}\r\n오후 전반부\r\n\r\n\r\n{\"x\":{\"tag\":{\"name\":\"Reactable\",\"attribs\":{\"data\":{\"시간\":[\"13 : 00\",\"13 : 30\",\"14 : 00\",\"14 : 30\"],\"Reproducible Research\":[\"RR #01\",\"RR #02\",\"RR #03\",\"RR #04\"],\"R Meets Python\":[\"RPy #01\",\"RPy #02\",\"RPy #03\",\"RPy #04\"],\"Deep Learning\":[\"DL #01\",\"DL #02\",\"DL #03\",\"DL #04\"]},\"columns\":[{\"accessor\":\"시간\",\"name\":\"시간\",\"type\":[\"glue\",\"character\"],\"minWidth\":50},{\"accessor\":\"Reproducible Research\",\"name\":\"Reproducible Research\",\"type\":\"character\",\"minWidth\":150},{\"accessor\":\"R Meets Python\",\"name\":\"R Meets Python\",\"type\":\"character\",\"minWidth\":150},{\"accessor\":\"Deep Learning\",\"name\":\"Deep Learning\",\"type\":\"character\",\"minWidth\":150}],\"defaultPageSize\":10,\"paginationType\":\"numbers\",\"showPageInfo\":true,\"minRows\":1,\"dataKey\":\"39ba58e4572eb35120b00a2d90adada8\",\"key\":\"39ba58e4572eb35120b00a2d90adada8\"},\"children\":[]},\"class\":\"reactR_markup\"},\"evals\":[],\"jsHooks\":[]}\r\n오후 후반부\r\n\r\n\r\n{\"x\":{\"tag\":{\"name\":\"Reactable\",\"attribs\":{\"data\":{\"시간\":[\"15 : 30\",\"16 : 00\",\"16 : 30\",\"17 : 00\"],\"Data Journalism\":[\"DJ #05\",\"DJ #06\",\"DJ #07\",\"DJ #08\"],\"Visualization\":[\"Viz #05\",\"Viz #06\",\"Viz #07\",\"Viz #08\"],\"Natural Language Processing\":[\"NLP #05\",\"NLP #06\",\"NLP #07\",\"NLP #08\"]},\"columns\":[{\"accessor\":\"시간\",\"name\":\"시간\",\"type\":[\"glue\",\"character\"],\"minWidth\":50},{\"accessor\":\"Data Journalism\",\"name\":\"Data Journalism\",\"type\":\"character\",\"minWidth\":150},{\"accessor\":\"Visualization\",\"name\":\"Visualization\",\"type\":\"character\",\"minWidth\":150},{\"accessor\":\"Natural Language Processing\",\"name\":\"Natural Language Processing\",\"type\":\"character\",\"minWidth\":150}],\"defaultPageSize\":10,\"paginationType\":\"numbers\",\"showPageInfo\":true,\"minRows\":1,\"dataKey\":\"991944d6514858a4ed09d1175d5bb945\",\"key\":\"991944d6514858a4ed09d1175d5bb945\"},\"children\":[]},\"class\":\"reactR_markup\"},\"evals\":[],\"jsHooks\":[]}\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-30T21:12:27+09:00"
+      "last_modified": "2021-07-02T20:38:35+09:00"
     },
     {
       "path": "registration.html",
@@ -62,7 +62,7 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\nTBA\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-30T21:12:28+09:00"
+      "last_modified": "2021-07-02T20:38:37+09:00"
     }
   ],
   "collections": []

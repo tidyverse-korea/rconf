@@ -19,12 +19,16 @@ knitr::opts_chunk$set(echo = FALSE)
 
 -   [2021-07-02] `useR 2021 Korea` 웹사이트 Hands-on 코딩 !!!
 
-    - [festa 이벤트](https://festa.io/events/1653)
+    -   [festa 이벤트](https://festa.io/events/1653)
+
+-   [2021-07-01] `Julia Silge` Keynote 발표 수락 !!!
+
+    -   ![](fig/julia_silge.jpg){width="98" height="92"}
 
 -   [2021-06-30] `useR 2021 Korea` 컨퍼런스 포스터 초안 준비
 
-    - [`poster` 브랜치](https://github.com/tidyverse-korea/rconf/tree/poster)
-    
+    -   [`poster` 브랜치](https://github.com/tidyverse-korea/rconf/tree/poster)
+
 -   [2021-06-22] 제이펍 스폰서
 
     -   ![](fig/jpub-logo.jpeg){width="159" height="85"}
