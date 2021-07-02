@@ -1,0 +1,114 @@
+---
+title: useR! 2021 Korea
+author:
+  - name: R User Group in Korea
+    affil: 1
+    facebook: https://www.facebook.com/groups/tidyverse
+    email: victor@r2bit.com
+    main: true
+affiliation:
+  - num: 1
+    address: Tidyverse Korea
+main_findings:
+  - "Digital Transformation with R"
+  - '![](https://raw.githubusercontent.com/tidyverse-korea/rconf/master/fig/useR_Korea.png){.main_pic}'
+logoleft_name: '![](https://raw.githubusercontent.com/statkclee/comp_document/gh-pages/fig/useR_qrcode_transparent.png){.main-img-left}'
+logoright_name: '![](https://raw.githubusercontent.com/tidyverse-korea/rconf/master/fig/Tidyverse_Korea_logo.png){.main-img-right}'
+output: 
+  posterdown::posterdown_betterland:
+    self_contained: false
+    pandoc_args: --mathjax
+    highlight: haddock
+    number_sections: false
+link-citations: true
+author_textsize: "77px"
+font_family: "NanumBarunGothic"
+main_fontfamily: "NanumBarunpen"
+main_textcol: "#FFFFFF90"
+main_textsize:	"170px"
+title_textsize: "120px"
+---
+
+
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(results = 'asis',
+                      echo = FALSE,
+                      warning = FALSE,
+                      tidy = FALSE,
+                      message = FALSE,
+                      fig.align = 'center',
+                      out.width = "100%")
+options(knitr.table.format = "html") 
+```
+
+
+# Introduction
+
+The digital divide and the acceleration of digital transformation have become clearer due to COVID-19. At the center of these changes are data-based technologies such as big data, machine learning, and artificial intelligence, which are receiving intense attention. In the data science age, R is gaining popularity like other general-purpose programming languages, despite being a statistical programming language.
+
+
+The useR! The 2021 Korea Conference was planned as a place where everyone who wants to solve problems and create value through data, covering not only the existing statistics academia, industry, and government, but also data science communities, can gather, share experiences and knowledge, and network. We hope this will be a valuable time to meet many people who can open up a new world through data and work with them at this place, which adds the breadth and depth of data science utilization.
+
+<br>
+
+# Date and Location
+
+- Date: 2021-11-19 (Friday) 10:00 ~ 17:00
+- Location: [35th Lotte World Tower](https://www.lwt.co.kr/en/main/main.do) (300, Olympic-ro, Songpa-gu, Seoul, Republic of Korea)
+
+<br>
+
+# Key Dates
+
+-   2021-07-15 Opening of submission
+-   2021-08-15 Opening of early bird registration
+-   2021-09-10 Abstract selection and announcement
+-   2021-09-17 Opening of registration
+-   2021-11-05 Closing of submissions
+-   2021-11-12 End of registration
+-   2021-11-19 Conference Open
+
+<br>
+
+# Keynote Speakers
+
+[![Julia Silge](fig/julia_silge.jpg){width="480"}](https://www.rstudio.com/speakers/julia-silge/) ![ChoongHyun Ryu](fig/choonghyun_ryu.png){width="440"}
+
+<br> <br>
+
+# Keynote & Program
+
++-------------------------+--------------------------------------------+
+| Morning                 | Keynotes                                   |
++:=======================:+:==========================================:+
+| Julia Silge             | `tidymodels` & `tidytext`                  |
++-------------------------+--------------------------------------------+
+| ChoongHyun Ryu          | `dlookr` Open Statistics Package          |
++-------------------------+--------------------------------------------+
+
+------------------------------------------------------------------------
+
++---------------+-----------------------+----------------+---------------+
+| Afternoon     | Session I             | Session II     | Session III   |
++:=============:+:=====================:+:==============:+:=============:+
+| First Half    | Reproducible Research | R Meets Python | Deep Learning |
++---------------+-----------------------+----------------+---------------+
+| Second Half   | Data Journalism       | Visualization  |  NLP          |
++---------------+-----------------------+----------------+---------------+
+
+<br> <br>
+
+# Volunteer, Contributors, R Advocates
+
+Victor Lee, ChoongHyun Ryu, BongHo Lee, OhSung Kwon, Sungho Na
+
+<br> <br>
+
+# Sponsors
+
+[![](https://raw.githubusercontent.com/tidyverse-korea/rconf/master/fig/jpub-logo.jpeg){width="300"}](https://jpub.tistory.com/) [![](fig/wanted-logo.png){width="250"}](https://www.wanted.co.kr/company/79)
+[![](fig/hani_logo.jpg){width="350"}](https://www.hani.co.kr/)
+
+
+
