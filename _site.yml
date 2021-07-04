@@ -17,14 +17,14 @@ navbar:
       href: about.html
     - text: "Key Dates"
       href: key_dates.html
+    - text: "Speaker"
+      href: speaker.html
     - text: "Program"
       href: program.html
     - text: "Registration"
       href: registration.html
     - text: "Code of Conduct"
       href: coc.html
-    - text: "Jobs"
-      href: jobs.html
     - text: "Contact"
       href: contact.html
 output: 

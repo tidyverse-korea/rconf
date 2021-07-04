@@ -13,9 +13,13 @@ knitr::opts_chunk$set(echo = FALSE)
 # Date and Location
 
 1.  Date: 2021년 11월 19일(금) 10:00 \~ 17:00
-2.  Location: [잠정] Open UP 컨퍼런스룸 (서울시 강남구 테헤란로 431 저스트코 타워 13층)
+2.  Location: [롯데월드타워 35층 원티드랩]((https://www.lwt.co.kr/en/main/main.do)) (서울 송파구 올림픽로 300)
 
 # News
+
+-   [2021-07-04] 유충현 Keynote 발표 수락 !!!
+
+    -   ![](fig/choonghyun_ryu.png){width="98" height="92"}
 
 -   [2021-07-02] `useR 2021 Korea` 웹사이트 Hands-on 코딩 !!!
 
@@ -60,6 +64,8 @@ knitr::opts_chunk$set(echo = FALSE)
     -   [![](fig/jpub-logo.jpeg){width="159" height="85"}](https://jpub.tistory.com/)
 
 -   Media
+
+    - [![](fig/hani_logo.jpg){width="350"}](https://www.hani.co.kr/)
 
 # SNS
 
