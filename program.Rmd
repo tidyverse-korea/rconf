@@ -14,11 +14,14 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```{r google-sheet}
 library(tidyverse)
-library(googlesheets4)
+# library(googlesheets4)
 # googlesheets4::sheets_auth() # 구글 쉬트 인증 -----
 library(lubridate)
+library(readxl)
 
-program_tbl <- read_sheet("https://docs.google.com/spreadsheets/d/1-QujZBMXyoUSZB6IGoEF2k33-gkoJ3XmuxcN7wjmfFk/edit?usp=sharing", skip =2)
+# program_tbl <- read_sheet("https://docs.google.com/spreadsheets/d/1-QujZBMXyoUSZB6IGoEF2k33-gkoJ3XmuxcN7wjmfFk/edit?usp=sharing", skip =2)
+
+program_tbl <- read_excel("data/Program.xlsx", skip =2)
 
 keynote_tbl <- program_tbl %>% 
   slice(1:4) %>% 
