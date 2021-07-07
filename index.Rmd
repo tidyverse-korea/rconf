@@ -17,6 +17,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # News
 
+-   [2021-07-07] 데이터야놀자 커뮤니티가 함께 합니다.
+
+    -   ![](fig/datayanolja_logo.png){width="282"}
+
 -   [2021-07-04] 유충현 Keynote 발표 수락 !!!
 
     -   ![](fig/choonghyun_ryu.png){width="98" height="92"}
@@ -65,7 +69,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 -   Media
 
-    - [![](fig/hani_logo.jpg){width="350"}](https://www.hani.co.kr/)
+    -   [![](fig/hani_logo.jpg){width="198"}](https://www.hani.co.kr/)
 
 # SNS
 
