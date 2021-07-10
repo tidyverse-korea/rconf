@@ -1,11 +1,12 @@
 ---
 title: "Registartion"
 description: |
-  Some additional details about the website
+  곧 기쁜 소식을 전하도록 하겠습니다.
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-TBA
+- Early Birds 등록: 추후 공지
+- 본행사 등록

@@ -1,11 +1,11 @@
 ---
 title: "Contact"
 description: |
-  Some additional details about the website
+  useR! 2021 Korea 컨퍼런스 후원을 비롯한 관련 문의는 다음 전자우편으로 연락주시면 신속히 회신드립니다.
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-TBA
+R 사용자회 대표 전자우편 <admin@r2bit.com>

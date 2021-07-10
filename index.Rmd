@@ -17,6 +17,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # News
 
+-   [2021-07-10] "R 사용자회" 행동 규범(Code of Conduct) 함께 작성했습니다.
+
 -   [2021-07-07] 데이터야놀자 커뮤니티가 함께 합니다.
 
     -   ![](fig/datayanolja_logo.png){width="282"}
