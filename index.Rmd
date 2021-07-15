@@ -17,7 +17,19 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # News
 
+-   **[2021-07-15] useR! 2021 Korea 컨퍼런스 발표자 모집 시작합니다.**
+
+    - [발표 신청](https://victorlee5.typeform.com/to/EJK7aEva)
+
+-   [2021-07-23] R 마크다운 명함 제작 Hands-On 워크샵이 있습니다.
+
+    - [useR! 2021 Korea - 명함제작 신청](https://festa.io/events/1679)
+
 -   [2021-07-10] "R 사용자회" 행동 규범(Code of Conduct) 함께 작성했습니다.
+
+-   [2021-07-09] R 컨퍼런스 포스터 제작 Hands-On 워크샵이 있습니다.
+
+    - [useR! 2021 Korea - R 컨퍼런스 포스터 제작 Hands-On 신청](https://festa.io/events/1666)
 
 -   [2021-07-07] 데이터야놀자 커뮤니티가 함께 합니다.
 
