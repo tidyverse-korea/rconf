@@ -17,19 +17,23 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # News
 
+-   **[2021-07-16] R Consortium 후원 확정**
+
+    -   [![](fig/R_Consortium-logo-horizontal-color.png){width="30%"}](https://www.r-consortium.org/)
+
 -   **[2021-07-15] useR! 2021 Korea 컨퍼런스 발표자 모집 시작합니다.**
 
-    - [발표 신청](https://victorlee5.typeform.com/to/EJK7aEva)
+    -   [발표 신청](https://victorlee5.typeform.com/to/EJK7aEva)
 
 -   [2021-07-23] R 마크다운 명함 제작 Hands-On 워크샵이 있습니다.
 
-    - [useR! 2021 Korea - 명함제작 신청](https://festa.io/events/1679)
+    -   [useR! 2021 Korea - 명함제작 신청](https://festa.io/events/1679)
 
 -   [2021-07-10] "R 사용자회" 행동 규범(Code of Conduct) 함께 작성했습니다.
 
 -   [2021-07-09] R 컨퍼런스 포스터 제작 Hands-On 워크샵이 있습니다.
 
-    - [useR! 2021 Korea - R 컨퍼런스 포스터 제작 Hands-On 신청](https://festa.io/events/1666)
+    -   [useR! 2021 Korea - R 컨퍼런스 포스터 제작 Hands-On 신청](https://festa.io/events/1666)
 
 -   [2021-07-07] 데이터야놀자 커뮤니티가 함께 합니다.
 
@@ -65,33 +69,4 @@ knitr::opts_chunk$set(echo = FALSE)
 
 -   [2021-06-10] R 컨퍼런스 일시 확정: 11월 19일
 
-# Sponsors
 
--   Platinum
-
--   Gold
-
--   Silver
-
--   Bronze
-
-    -   [![](fig/openup_logo.png){width="30%"}](https://www.oss.kr/)
-
--   Violet
-
-    -   [![](fig/jpub-logo.jpeg){width="159" height="85"}](https://jpub.tistory.com/)
-
--   Media
-
-    -   [![](fig/hani_logo.jpg){width="198"}](https://www.hani.co.kr/)
-
-# SNS
-
-R is an open source software and programming language for data ingestion, data processing, exploratory data analysis, statistical modeling, visualization and machine learning among other things. The [**Tidyverse Seoul R meetup**](https://www.meetup.com/seoul-r-meetup) brings together local users of R and featuring talks with world-class speakers while creating fruitful networking opportunities for its members.
-
--   Global R Meetup: [link](https://benubah.github.io/r-community-explorer/rugs.html)
--   Tidyverse Seoul R Meetup: [link](https://tidyverse-korea.github.io/seoul-R/)
--   Youtube Channel: [link](https://www.youtube.com/channel/UCW-epmIvjBEhhVXw_F0Nqbw)
--   Facebook Group: [link](https://www.facebook.com/groups/tidyverse)
--   **Seoul R Meetup**: [link](https://www.meetup.com/seoul-r-meetup)
--   Shiny Seoul Meetup: [link](https://github.com/shinykorea/Meetup)

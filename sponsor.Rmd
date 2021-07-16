@@ -1,0 +1,49 @@
+---
+title: "Sponsors"
+description: |
+  성공적인 useR! 2021 Korea 컨퍼런스를 위해 많은 분들이 함께 하고 있습니다
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+### Platinum
+
+
+
+### Gold
+
+|     |     |                                                                                             |     |     |
+|-----|-----|---------------------------------------------------------------------------------------------|-----|-----|
+|     |     | [![](fig/R_Consortium-logo-vertical-color.png){width="100"}](https://www.r-consortium.org/) |     |     |
+
+### Silver
+
+### Bronze
+
+|     |     |                                                              |     |     |
+|-----|-----|--------------------------------------------------------------|-----|-----|
+|     |     | [![](fig/openup_logo.png){width="100"}](https://www.oss.kr/) |     |     |
+
+### Violet
+
+|     |     |                                                                   |     |     |
+|-----|-----|-------------------------------------------------------------------|-----|-----|
+|     |     | [![](fig/jpub-logo.jpeg){width="100"}](https://jpub.tistory.com/) |     |     |
+
+### Media & Community
+
+|     |     |                                                                |                                                                              |     |
+|-----|-----|----------------------------------------------------------------|------------------------------------------------------------------------------|-----|
+|     |     | [![](fig/hani_logo.jpg){width="100"}](https://www.hani.co.kr/) | [![](fig/datayanolja_logo.png){width="100"}](https://datayanolja.github.io/) |     |
+
+# SNS
+
+-   Global R Meetup: [link](https://benubah.github.io/r-community-explorer/rugs.html)
+-   Tidyverse Seoul R Meetup: [link](https://tidyverse-korea.github.io/seoul-R/)
+-   Youtube Channel: [link](https://www.youtube.com/channel/UCW-epmIvjBEhhVXw_F0Nqbw)
+-   Facebook Group: [link](https://www.facebook.com/groups/tidyverse)
+-   **Seoul R Meetup**: [link](https://www.meetup.com/seoul-r-meetup)
+-   Shiny Seoul Meetup: [link](https://github.com/shinykorea/Meetup)

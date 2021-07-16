@@ -25,8 +25,8 @@ navbar:
       href: registration.html
     - text: "Code of Conduct"
       href: coc.html
-    - text: "Contact"
-      href: contact.html
+    - text: "Sponsor"
+      href: sponsor.html
 output: 
   distill::distill_article:
     include:
