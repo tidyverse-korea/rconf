@@ -6,7 +6,7 @@
       "description": "디지털 경제 패러다임 전환은 R",
       "author": [],
       "contents": "\r\n소개\r\n디지털 불평등(Digital Divide)과 디지털 경제전환(Digital Transformation)의 가속화가 코로나19로 보다 명확해진 시대다. 이러한 변화의 중심에 빅데이터, 기계학습, 인공지능 등 데이터 기반 기술이 자리 잡고 있으며 또 집중 관심을 받고 있다. 데이터 시대를 맞아 R은 통계에 기반한 프로그래밍 언어임에도 불구하고 다른 범용 프로그래밍 언어와 같은 큰 인기를 얻고 있다.\r\n금번 useR! 2021 Korea 컨퍼런스는 기존 통계학 관련 학계, 산업계, 정부 뿐 아니라 데이터 과학계까지 망라해 데이터를 통해 문제를 해결하고 가치를 창출하고자 하는 모든 분이 모여 경험과 지식을 공유하고 네트워킹을 할 수 있는 자리로 기획하였다. 데이터 활용의 폭과 깊이를 더한 이 자리에서 데이터를 통해 새로운 세상을 열어가고 함께 하실 수 있는 많은 분을 만나는 소중한 시간이 되었으면 하는바람이다.\r\n일시 및 장소\r\n일시: 2021년 11월 19일(금) 10:00 ~ 17:00\r\n장소: 롯데월드타워 35층 원티드랩 (서울 송파구 올림픽로 300)\r\n연락처\r\nuseR! 2021 Korea 컨퍼런스 후원을 비롯한 관련 문의는 다음 전자우편으로 연락주시면 신속히 회신드립니다.\r\nR 사용자회 대표 전자우편 admin@r2bit.com\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-07-16T20:06:35+09:00"
+      "last_modified": "2021-07-17T21:38:12+09:00"
     },
     {
       "path": "coc.html",
@@ -14,7 +14,7 @@
       "description": "useR! Korea Conference 행동규범",
       "author": [],
       "contents": "\r\nuseR! Korea Conference (이하 R 컨퍼런스)는 비영리 개발자를 위해 “R 사용자회”를 비롯한 다양한 R 커뮤니티가 주관하여 진행하는 행사입니다. R 컨퍼런스 주요 취지는 오픈소스 프로그래밍 언어인 R 활용 방법 공유, Tidyverse 패키지 활용 확대, R 이용자간 활발한 소통과 교류 등입니다.\r\nR 컨퍼런스 행동규범은 R 컨퍼런스에 참여하는 모든 참석자와 기관이 준수해야 하는 최소한의 기준과 가치입니다. R 커뮤니티와 참석자는 R 컨퍼런스 행동규범을 지키고, 컨퍼런스 주최자는 행동규범을 적용합니다.\r\nR 컨퍼런스는 행사에 참여하는 R 커뮤니티를 소중하게 여깁니다. R 컨퍼런스는 참석자 모두가 유익한 시간을 보내고, 만족스러운 경험을 쌓고 나누기를 희망합니다. R 컨퍼런스 성과물은 행사 기간 내내 벌어지는 공식, 비공식 모든 활동(예를 들어 행사, 모임, 의견 나눔, 토론 등)에서 다른 분을 존중하고, 예의있게 대해야 생기고 커집니다. 참석자는 행사 기간 동안 다른 참석자에게 존경과 예의를 보여야 합니다.\r\nR 컨퍼런스는 “누구든지 성별, 종교 또는 사회적 신분에 의하여 정치적, 경제적, 사회적, 문화적 생활의 모든 영역에 있어서 차별을 받지 아니한다”는 헌법 제11조를 지킵니다. R 컨퍼런스는 “합리적인 이유 없이 성별, 장애, 나이, 언어, 출신국가, 출신민족, 인종, 국적, 피부색, 출신지역, 용모 등 신체조건, 혼인여부, 임신 또는 출산, 가족 및 가구의 형태와 상황, 종교, 사상 또는 정치적 의견, 형의 효력이 실효된 전과, 성적지향, 성별정체성, 학력, 고용형태, 병력 또는 건강상태, 사회적 신분”에 따라 “특정 개인, 집단, 법인을 분리·구별·제한·배제·거부하거나 불리하게 대우하는 행위”(이하 ‘차별행위’)를 반대합니다.\r\nR 컨퍼런스는 “지위를 이용하거나 업무 등과 관련하여 성적 언동 또는 성적 요구 등으로 상대방에게 성적 굴욕감이나 혐오감을 느끼게 하는 행위”와 상대방이 성적 언동 또는 요구에 대한 불응을 이유로 불이익을 주거나 그에 따르는 것을 조건으로 이익 공여의 의사표시를 하는 행위”(이하 ‘성희롱’)을 거부합니다. R 컨퍼런스는 ‘차별행위’와 ‘성희롱’ 예방을 위해 노력을 다합니다. R 컨퍼런스는 ‘차별행위’와 ‘성희롱’을 안 시점에 ‘차별행위’와 ‘성희롱’을 한 참여자에게 중단을 요구하며, 바로 관계 기관에 신고합니다. R 컨퍼런스는 ‘차별행위’와 ‘성희롱’ 피해자 보호를 위해 노력합니다.\r\n따뜻하고 친목을 도모할 수 있는 행사를 만들수 있도록 도와 준 참석자 여러분에게 감사합니다.\r\n\r\n기여하신 분: 이광춘, 김익규, 유충현, 홍성학, 이봉호, 나성호\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-07-16T20:06:36+09:00"
+      "last_modified": "2021-07-17T21:38:13+09:00"
     },
     {
       "path": "index.html",
@@ -22,7 +22,7 @@
       "description": "코로나19로 촉발된 뉴노멀 시대 디지털 경제전환과 함께하는 애자일 R !  \n",
       "author": [],
       "contents": "\r\nDate and Location\r\nDate: 2021년 11월 19일(금) 10:00 ~ 17:00\r\nLocation: 롯데월드타워 35층 원티드랩 (서울 송파구 올림픽로 300)\r\nNews\r\n[2021-07-16] R Consortium 후원 확정\r\n\r\n\r\n[2021-07-15] useR! 2021 Korea 컨퍼런스 발표자 모집 시작합니다.\r\n발표 신청\r\n\r\n[2021-07-23] R 마크다운 명함 제작 Hands-On 워크샵이 있습니다.\r\nuseR! 2021 Korea - 명함제작 신청\r\n\r\n[2021-07-10] “R 사용자회” 행동 규범(Code of Conduct) 함께 작성했습니다.\r\n[2021-07-09] R 컨퍼런스 포스터 제작 Hands-On 워크샵이 있습니다.\r\nuseR! 2021 Korea - R 컨퍼런스 포스터 제작 Hands-On 신청\r\n\r\n[2021-07-07] 데이터야놀자 커뮤니티가 함께 합니다.\r\n\r\n\r\n[2021-07-04] 유충현 Keynote 발표 수락 !!!\r\n\r\n\r\n[2021-07-02] useR 2021 Korea 웹사이트 Hands-on 코딩 !!!\r\nfesta 이벤트\r\n\r\n[2021-07-01] Julia Silge Keynote 발표 수락 !!!\r\n\r\n\r\n[2021-06-30] useR 2021 Korea 컨퍼런스 포스터 초안 준비\r\nposter 브랜치\r\n\r\n[2021-06-22] 제이펍 스폰서\r\n\r\n\r\n[2021-06-20] useR 2021 Korea 로고 제작:\r\n\r\n\r\n[2021-06-19] useR 2021 Korea 장소 섭외 중 (Open UP 등)\r\n[2021-06-15] R 컨퍼런스 명칭 확정: useR 2021 Korea\r\n[2021-06-10] R 컨퍼런스 일시 확정: 11월 19일\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-07-16T20:06:38+09:00"
+      "last_modified": "2021-07-17T21:38:15+09:00"
     },
     {
       "path": "key_dates.html",
@@ -30,7 +30,7 @@
       "description": "`useR! 2021 Korea` 컨퍼런스 주요 일정",
       "author": [],
       "contents": "\r\n발표자 모집\r\nuseR! 컨퍼런스에 함께 하실 발표자를 모십니다!!! 아래 발표기본정보를 작성하여 전달해 주시면 “R 사용자회” 운영회에서 심사하여 발표를 함께 하도록 추진하겠습니다.\r\n\r\n\r\n\r\n (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=\"typef_orm\", b=\"https://embed.typeform.com/\"; if(!gi.call(d,id)) { js=ce.call(d,\"script\"); js.id=id; js.src=b+\"embed.js\"; q=gt.call(d,\"script\")[0]; q.parentNode.insertBefore(js,q) } })() 주요일정\r\n2021-07-15 프로그램 발표자 모집 시작\r\n2021-08-15 Early Bird 컨퍼런스 사전 등록\r\n2021-09-10 프로그램 발표자 및 발표내용 공개\r\n2021-09-17 컨퍼런스 행사 등록 시작\r\n2021-11-05 발표하시는 분 동영상, 논문 등 발표자료 송부 마감일\r\n2021-11-12 컨퍼런스 등록 마감\r\n2021-11-19 컨퍼런스 본 행사\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-07-16T20:06:40+09:00"
+      "last_modified": "2021-07-17T21:38:17+09:00"
     },
     {
       "path": "program.html",
@@ -38,7 +38,7 @@
       "description": "Two or Three Keynotes and three to six R tracks\n",
       "author": [],
       "contents": "\r\n프로그램\r\n\r\n\r\n\r\nKeynotes\r\n\r\n\r\n{\"x\":{\"tag\":{\"name\":\"Reactable\",\"attribs\":{\"data\":{\"시간\":[\"09 : 00\",\"10 : 00\",\"11 : 00\",\"12 : 00\"],\"프로그램\":[\"등록\",\"Keynote #01\",\"Keynote #02\",\"점심시간\"]},\"columns\":[{\"accessor\":\"시간\",\"name\":\"시간\",\"type\":[\"glue\",\"character\"],\"minWidth\":50},{\"accessor\":\"프로그램\",\"name\":\"프로그램\",\"type\":\"character\",\"minWidth\":450,\"align\":\"center\"}],\"defaultPageSize\":10,\"paginationType\":\"numbers\",\"showPageInfo\":true,\"minRows\":1,\"dataKey\":\"90ab98f66b9f52600929b3bcee2348b6\",\"key\":\"90ab98f66b9f52600929b3bcee2348b6\"},\"children\":[]},\"class\":\"reactR_markup\"},\"evals\":[],\"jsHooks\":[]}\r\n오후 전반부\r\n\r\n\r\n{\"x\":{\"tag\":{\"name\":\"Reactable\",\"attribs\":{\"data\":{\"시간\":[\"13 : 00\",\"13 : 30\",\"14 : 00\",\"14 : 30\"],\"Reproducible Research\":[\"RR #01\",\"RR #02\",\"RR #03\",\"RR #04\"],\"R Meets Python\":[\"RPy #01\",\"RPy #02\",\"RPy #03\",\"RPy #04\"],\"Deep Learning\":[\"DL #01\",\"DL #02\",\"DL #03\",\"DL #04\"]},\"columns\":[{\"accessor\":\"시간\",\"name\":\"시간\",\"type\":[\"glue\",\"character\"],\"minWidth\":50},{\"accessor\":\"Reproducible Research\",\"name\":\"Reproducible Research\",\"type\":\"character\",\"minWidth\":150},{\"accessor\":\"R Meets Python\",\"name\":\"R Meets Python\",\"type\":\"character\",\"minWidth\":150},{\"accessor\":\"Deep Learning\",\"name\":\"Deep Learning\",\"type\":\"character\",\"minWidth\":150}],\"defaultPageSize\":10,\"paginationType\":\"numbers\",\"showPageInfo\":true,\"minRows\":1,\"dataKey\":\"39ba58e4572eb35120b00a2d90adada8\",\"key\":\"39ba58e4572eb35120b00a2d90adada8\"},\"children\":[]},\"class\":\"reactR_markup\"},\"evals\":[],\"jsHooks\":[]}\r\n오후 후반부\r\n\r\n\r\n{\"x\":{\"tag\":{\"name\":\"Reactable\",\"attribs\":{\"data\":{\"시간\":[\"15 : 30\",\"16 : 00\",\"16 : 30\",\"17 : 00\"],\"Data Journalism\":[\"DJ #05\",\"DJ #06\",\"DJ #07\",\"DJ #08\"],\"Visualization\":[\"Viz #05\",\"Viz #06\",\"Viz #07\",\"Viz #08\"],\"Natural Language Processing\":[\"NLP #05\",\"NLP #06\",\"NLP #07\",\"NLP #08\"]},\"columns\":[{\"accessor\":\"시간\",\"name\":\"시간\",\"type\":[\"glue\",\"character\"],\"minWidth\":50},{\"accessor\":\"Data Journalism\",\"name\":\"Data Journalism\",\"type\":\"character\",\"minWidth\":150},{\"accessor\":\"Visualization\",\"name\":\"Visualization\",\"type\":\"character\",\"minWidth\":150},{\"accessor\":\"Natural Language Processing\",\"name\":\"Natural Language Processing\",\"type\":\"character\",\"minWidth\":150}],\"defaultPageSize\":10,\"paginationType\":\"numbers\",\"showPageInfo\":true,\"minRows\":1,\"dataKey\":\"991944d6514858a4ed09d1175d5bb945\",\"key\":\"991944d6514858a4ed09d1175d5bb945\"},\"children\":[]},\"class\":\"reactR_markup\"},\"evals\":[],\"jsHooks\":[]}\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-07-16T20:06:44+09:00"
+      "last_modified": "2021-07-17T21:38:24+09:00"
     },
     {
       "path": "registration.html",
@@ -46,15 +46,15 @@
       "description": "곧 기쁜 소식을 전하도록 하겠습니다.",
       "author": [],
       "contents": "\r\nEarly Birds 등록: 추후 공지\r\n본행사 등록\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-07-16T20:06:45+09:00"
+      "last_modified": "2021-07-17T21:38:27+09:00"
     },
     {
       "path": "speaker.html",
       "title": "발표자",
       "description": "국내외 데이터 과학 R/Tidyverse 발전에 기여 및 비젼을 제시해주신 분들이 함께 지식과 경험을 나누는 자리입니다",
       "author": [],
-      "contents": "\r\n키노트 발표\r\n쥴리아 실기(Julia Silge)\r\n유충현\r\n\r\n\r\nJulia Silge is a data scientist and software engineer at RStudio PBC where she works on open source modeling tools. She is an author, an international keynote speaker, and a real-world practitioner focusing on data analysis and machine learning practice. Julia loves text analysis, making beautiful charts, and communicating about technical topics with diverse audiences.\r\nKorea R User Group 창설을 주도하셨고 초대 대표 역임하셨으며 2011년, 2012년 1회/2회 Korea R User Conference를 이끄셨고, “R을 이용한 통계학의 이해” 외 5종 저술을 통해 한글 R/Tidyverse 대중화에 크게 기여를 하셨으며, CRAN에 R 팩키지 dlookr, alookr 를 기여하였다. 현재는 Seoul R Meetup, Tidyverse Korea 운영위원으로 R/Tidyverse 보급과 선진화에 헌신적인 기여를 하고 있다.\r\n발표\r\n발표자\r\n사진\r\n발표\r\n이광춘\r\n\r\n결국 문서는 커뮤니케이션이다: OCR, MRC, R 마크다운, 그리고 데이터.\r\n문서를 데이터로 프로그래밍 언어는 R 마크다운을 활용하여 증거기반 의사결정을 위한 End-to-End 데이터 과학 제품 개발\r\n\r\n어수행\r\n\r\n수요예측? Forecasting? 우리는 답을 찾을 것이다. 늘 그랬듯이… (정말?)\r\nForecasting 모형개발 삽질기\r\n\r\n최재성\r\n성균관 글로벌경제\r\n\r\n사회과학 연구자의 R 동행기\r\n대학에서 데이터 분석을 가르치고 사회과학 분야에서 실증 연구를 업으로 삼고 있는 사람은 왜 R에 관심을 가지게 되었고, 무엇을 익혔고, 어떤 일을 해왔을까? 사회과학 연구의 도구로서 R의 다양한 활용 가능성에 대한 생각을 나누어본다. \r\n\r\n박상훈\r\nUniversity of South Carolina\r\n\r\n재현가능한 연구를 위한 노력: R과 정치학의 만남\r\n다른 사회과학 분과들과 마찬가지로 정치학 역시 데이터 분석에 대한 중요성이 강조되어 왔다. 학부에서 SPSS, 대학원 석사과정에서 STATA, 그리고 박사과정에 들어서 R을 접하게 된 경험을 바탕으로 R이 정치학 연구에서 어떻게 자리잡아 왔으며,앞으로 어떻게 자리잡아 갈 것인지, R을 활용한 연구 과정에서 겪은 어려움 등에 대한 단상을 나누고자 한다.\r\n\r\n이민호/김상현\r\n데이터라이즈\r\n\r\n프로덕션 수준의 리포트 자동화 시스템 만들기\r\n다양한 고객사 요구사항에 유연하게 대응하기 위한 리포트 자동화 시스템을 구축하는 과정에 대해 정리합니다. 프로덕션 수준의 운영 환경을 R로 구성하면서 고민했던 점들과 문제를 해결하기 위해 선택했던 방법들을 공유합니다.\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-07-16T20:06:47+09:00"
+      "contents": "\r\n키노트 발표\r\n쥴리아 실기(Julia Silge)\r\n유충현\r\n\r\n\r\nJulia Silge is a data scientist and software engineer at RStudio PBC where she works on open source modeling tools. She is an author, an international keynote speaker, and a real-world practitioner focusing on data analysis and machine learning practice. Julia loves text analysis, making beautiful charts, and communicating about technical topics with diverse audiences.\r\nKorea R User Group 창설을 주도하셨고 초대 대표 역임하셨으며 2011년, 2012년 1회/2회 Korea R User Conference를 이끄셨고, “R을 이용한 통계학의 이해” 외 5종 저술을 통해 한글 R/Tidyverse 대중화에 크게 기여를 하셨으며, CRAN에 R 팩키지 dlookr, alookr 를 기여하였다. 현재는 Seoul R Meetup, Tidyverse Korea 운영위원으로 R/Tidyverse 보급과 선진화에 헌신적인 기여를 하고 있다.\r\n발표\r\n발표자\r\n사진\r\n발표\r\n이광춘\r\n\r\n결국 문서는 커뮤니케이션이다: OCR, MRC, R 마크다운, 그리고 데이터.\r\n문서를 데이터로 프로그래밍 언어는 R 마크다운을 활용하여 증거기반 의사결정을 위한 End-to-End 데이터 과학 제품 개발\r\n\r\n어수행\r\n\r\n수요예측? Forecasting? 우리는 답을 찾을 것이다. 늘 그랬듯이… (정말?)\r\nForecasting 모형개발 삽질기\r\n\r\n최재성\r\n성균관 글로벌경제\r\n\r\n사회과학 연구자의 R 동행기\r\n대학에서 데이터 분석을 가르치고 사회과학 분야에서 실증 연구를 업으로 삼고 있는 사람은 왜 R에 관심을 가지게 되었고, 무엇을 익혔고, 어떤 일을 해왔을까? 사회과학 연구의 도구로서 R의 다양한 활용 가능성에 대한 생각을 나누어본다. \r\n\r\n박상훈\r\nUniversity of South Carolina\r\n\r\n재현가능한 연구를 위한 노력: R과 정치학의 만남\r\n다른 사회과학 분과들과 마찬가지로 정치학 역시 데이터 분석에 대한 중요성이 강조되어 왔다. 학부에서 SPSS, 대학원 석사과정에서 STATA, 그리고 박사과정에 들어서 R을 접하게 된 경험을 바탕으로 R이 정치학 연구에서 어떻게 자리잡아 왔으며,앞으로 어떻게 자리잡아 갈 것인지, R을 활용한 연구 과정에서 겪은 어려움 등에 대한 단상을 나누고자 한다.\r\n\r\n이민호/김상현\r\n데이터라이즈\r\n\r\n프로덕션 수준의 리포트 자동화 시스템 만들기\r\n다양한 고객사 요구사항에 유연하게 대응하기 위한 리포트 자동화 시스템을 구축하는 과정에 대해 정리합니다. 프로덕션 수준의 운영 환경을 R로 구성하면서 고민했던 점들과 문제를 해결하기 위해 선택했던 방법들을 공유합니다.\r\n\r\n이준혁\r\nSeegene\r\n\r\nInfinite Shiny World\r\nShiny Open Source로 활용할 수 있는 모든 것을 알려드림. Shiny Proxy , Shiny dashboard 등의 활용 측면 경험 공유. 누구나 쉽게 구현가능한 Shiny 노하우를 경험하실 수 있습니다.\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-07-17T21:38:29+09:00"
     },
     {
       "path": "sponsor.html",
@@ -62,7 +62,7 @@
       "description": "성공적인 useR! 2021 Korea 컨퍼런스를 위해 많은 분들이 함께 하고 있습니다",
       "author": [],
       "contents": "\r\nPlatinum\r\nGold\r\n\r\n\r\n\r\n\r\n\r\nSilver\r\nBronze\r\n\r\n\r\n\r\n\r\n\r\nViolet\r\n\r\n\r\n\r\n\r\n\r\nMedia & Community\r\n\r\n\r\n\r\n\r\n\r\nSNS\r\nGlobal R Meetup: link\r\nTidyverse Seoul R Meetup: link\r\nYoutube Channel: link\r\nFacebook Group: link\r\nSeoul R Meetup: link\r\nShiny Seoul Meetup: link\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-07-16T20:06:49+09:00"
+      "last_modified": "2021-07-17T21:38:31+09:00"
     }
   ],
   "collections": []
