@@ -1,13 +1,13 @@
 name: "rconf"
-title: "useR! 2021 Korea"
+title: "Korea R Conference 2021"
 description: |
-  "useR! Korea, R Conference 2021"
+  "koRea Conference 2021"
 output_dir: "docs"
 google_analytics: "UA-59802572-24"
 theme: theme.css
 navbar:
   logo:
-    image: fig/useR_Korea.png
+    image: fig/koRea_logo.png
     href: https://use-r.kr
   search: true  
   right:

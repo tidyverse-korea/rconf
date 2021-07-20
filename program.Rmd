@@ -1,7 +1,7 @@
 ---
 title: "Program"
 description: |
-  Two or Three Keynotes and three to six R tracks
+  국내외 R에 기여를 많이 하신 두분의 키노트 연사분을 모시고 오전 세션을 진행하고 오후는 라이브 세션과 동영상 세션이 병행하여 진행됩니다. 
 editor_options: 
   chunk_output_type: console
 ---

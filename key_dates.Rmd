@@ -1,7 +1,7 @@
 ---
 title: "Key Dates"
 description: |
-  `useR! 2021 Korea` 컨퍼런스 주요 일정
+  한국 R 컨퍼런스 2021 주요 일정
 ---
 
 ```{r setup, include=FALSE}
@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # 발표자 모집
 
-useR! 컨퍼런스에 함께 하실 발표자를 모십니다!!! 아래 발표기본정보를 작성하여 전달해 주시면 "R 사용자회" 운영회에서 심사하여 발표를 함께 하도록 추진하겠습니다.
+한국 R 컨퍼런스에 함께 하실 발표자를 모십니다!!! 아래 발표기본정보를 작성하여 전달해 주시면 "R 사용자회" 운영회에서 심사하여 발표를 함께 하도록 추진하겠습니다.
 
 <div class="typeform-widget" data-url="https://form.typeform.com/to/EJK7aEva?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 

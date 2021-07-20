@@ -1,7 +1,7 @@
 ---
 title: "Sponsors"
 description: |
-  성공적인 useR! 2021 Korea 컨퍼런스를 위해 많은 분들이 함께 하고 있습니다
+  성공적인 '한국 R 컨퍼런스 2021' 를 위해 많은 분들이 함께 하고 있습니다
 ---
 
 ```{r setup, include=FALSE}

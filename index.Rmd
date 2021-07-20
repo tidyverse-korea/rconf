@@ -1,5 +1,5 @@
 ---
-title: "useR 2021 Korea"
+title: "한국 R 컨퍼런스 2021"
 description: |
   코로나19로 촉발된 뉴노멀 시대 디지털 경제전환과 함께하는 애자일 R !  
 site: distill::distill_website
@@ -13,9 +13,16 @@ knitr::opts_chunk$set(echo = FALSE)
 # Date and Location
 
 1.  Date: 2021년 11월 19일(금) 10:00 \~ 17:00
-2.  Location: [롯데월드타워 35층 원티드랩]((https://www.lwt.co.kr/en/main/main.do)) (서울 송파구 올림픽로 300)
+
+2.  Location: 온라인 라이브
+
+    -   연사분 촬영장소: [롯데월드타워 35층 원티드랩](https://www.lwt.co.kr/en/main/main.do) (서울 송파구 올림픽로 300)
 
 # News
+
+-   [2021-07-20] 한국 R 컨퍼런스 명칭과 로고 변경
+
+    -   ![](fig/koRea_logo.png){width="33%"}
 
 -   **[2021-07-16] R Consortium 후원 확정**
 
@@ -68,5 +75,3 @@ knitr::opts_chunk$set(echo = FALSE)
 -   [2021-06-15] R 컨퍼런스 명칭 확정: `useR 2021 Korea`
 
 -   [2021-06-10] R 컨퍼런스 일시 확정: 11월 19일
-
-
