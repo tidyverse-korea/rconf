@@ -10,7 +10,6 @@ editor_options:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# 프로그램
 
 ```{r google-sheet}
 library(tidyverse)
@@ -30,17 +29,18 @@ keynote_tbl <- program_tbl %>%
   mutate(시간 = glue::glue("{str_pad(hour(시간), width=2, pad= 0)} : {str_pad(minute(시간), width=2, pad= 0)}"))
 
 session_01_tbl <- program_tbl %>% 
-  slice(6:9) %>%
-  set_names(c("시간", "Reproducible Research", "R Meets Python", "Deep Learning")) %>% 
+  slice(7:10) %>%
+  set_names(c("시간", "실시간 라이브", "동영상 녹화")) %>% 
   mutate(시간 = glue::glue("{str_pad(hour(시간), width=2, pad= 0)} : {str_pad(minute(시간), width=2, pad= 0)}"))
 
 session_02_tbl <- program_tbl %>% 
-  slice(12:n()) %>%
-  set_names(c("시간", "Data Journalism", "Visualization", "Natural Language Processing")) %>% 
+  slice(13:n()) %>%
+  set_names(c("시간", "실시간 라이브", "동영상 녹화")) %>% 
   mutate(시간 = glue::glue("{str_pad(hour(시간), width=2, pad= 0)} : {str_pad(minute(시간), width=2, pad= 0)}"))
 ```
 
-## Keynotes
+
+## 환영인사 & Keynotes
 
 ```{r keynote-reactable}
 library(reactable)
@@ -59,10 +59,9 @@ keynote_tbl %>%
 session_01_tbl %>% 
     reactable::reactable(  
       columns = list(
-         `시간`                 = colDef(minWidth =  50),
-        `Reproducible Research` = colDef(minWidth = 150),
-        `R Meets Python`        = colDef(minWidth = 150),
-        `Deep Learning`         = colDef(minWidth = 150)
+         `시간`              = colDef(minWidth =  50, align = "center"),
+        `실시간 라이브`      = colDef(minWidth = 150, align = "center"),
+        `동영상 녹화`        = colDef(minWidth = 150, align = "center")
   ))
 ```
 
@@ -72,10 +71,9 @@ session_01_tbl %>%
 session_02_tbl %>% 
     reactable::reactable(  
       columns = list(
-         `시간`                 = colDef(minWidth =  50),
-        `Data Journalism` = colDef(minWidth = 150),
-        `Visualization`        = colDef(minWidth = 150),
-        `Natural Language Processing`         = colDef(minWidth = 150)
+         `시간`              = colDef(minWidth =  50, align = "center"),
+        `실시간 라이브`      = colDef(minWidth = 150, align = "center"),
+        `동영상 녹화`        = colDef(minWidth = 150, align = "center")
   ))
 ```
 
