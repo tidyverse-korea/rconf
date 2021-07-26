@@ -20,11 +20,19 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # News
 
+-   [2021-07-26] 한국 R 컨퍼런스 발표자 템플릿 초안 공개합니다!!!
+
+    -   [발표자 템플릿](https://github.com/tidyverse-korea/templates)
+
+-   [2021-08-06] R 마크다운 이력서 제작 Hands-On 워크샵이 있습니다.
+
+    -   [한국 R 컨퍼런스 - 이력서 제작 Hands-On 신청](https://festa.io/events/1707)
+
 -   [2021-07-20] 한국 R 컨퍼런스 명칭과 로고 변경
 
     -   ![](fig/koRea_logo.png){width="33%"}
 
--   **[2021-07-16] R Consortium 후원 확정**
+-   [2021-07-16] R Consortium 후원 확정
 
     -   [![](fig/R_Consortium-logo-horizontal-color.png){width="30%"}](https://www.r-consortium.org/)
 
