@@ -23,6 +23,7 @@
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
@@ -55,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -76,7 +77,7 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
@@ -1861,7 +1862,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2346,7 +2350,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2443,94 +2447,90 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: center;">발표자</th>
-<th style="text-align: center;">사진</th>
-<th style="text-align: left;">발표</th>
+<th style="text-align: center;">발표자 | 사진</th>
+<th style="text-align: center;">| 발표</th>
+<th style="text-align: left;"></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><a href="https://education.rstudio.com/trainers/people/lee+kwangchun/">이광춘</a></td>
-<td style="text-align: center;"><img src="fig/speakers/kwangchun_lee.jpg" width="100" /></td>
-<td style="text-align: left;"><ul>
-<li><p>결국 문서는 커뮤니케이션이다: OCR, MRC, R 마크다운, 그리고 데이터.</p></li>
-<li><p>문서를 데이터로 프로그래밍 언어는 R 마크다운을 활용하여 증거기반 의사결정을 위한 End-to-End 데이터 과학 제품 개발</p></li>
+<td style="text-align: center;"><a href="https://education.rstudio.com/trainers/people/lee+kwangchun/">이광춘</a> | ![</td>
+<td style="text-align: center;">](fig/speakers/kwangchun_lee.jpg){width=“100”} | -</td>
+<td style="text-align: left;"><p>결국 문서는 커뮤니케이션이다: OCR, MRC, R 마크다운, 그리고 데이터.</p>
+<ul>
+<li>문서를 데이터로 프로그래밍 언어는 R 마크다운을 활용하여 증거기반 의사결정을 위한 End-to-End 데이터 과학 제품 개발</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">어수행</td>
-<td style="text-align: center;"><img src="fig/speakers/soohaeng_eo.jpeg" width="100" /></td>
-<td style="text-align: left;"><ul>
-<li><p>수요예측? Forecasting? 우리는 답을 찾을 것이다. 늘 그랬듯이… (정말?)</p></li>
-<li><p>Forecasting 모형개발 삽질기</p></li>
+<td style="text-align: center;">어수행 | ![</td>
+<td style="text-align: center;">](fig/speakers/soohaeng_eo.jpeg){width=“100”} | -</td>
+<td style="text-align: left;"><p>수요예측? Forecasting? 우리는 답을 찾을 것이다. 늘 그랬듯이… (정말?)</p>
+<ul>
+<li>Forecasting 모형개발 삽질기</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><p>최재성</p>
-<p>성균관 글로벌경제</p></td>
-<td style="text-align: center;"><img src="fig/speakers/jaesung_choi.jpg" width="100" /></td>
-<td style="text-align: left;"><ul>
-<li><p>사회과학 연구자의 R 동행기</p></li>
-<li><p>대학에서 데이터 분석을 가르치고 사회과학 분야에서 실증 연구를 업으로 삼고 있는 사람은 왜 R에 관심을 가지게 되었고, 무엇을 익혔고, 어떤 일을 해왔을까? 사회과학 연구의 도구로서 R의 다양한 활용 가능성에 대한 생각을 나누어본다. </p></li>
-</ul></td>
+<td style="text-align: center;"><p>최재성 | ![</p>
+<p>성균관 글로벌경제 |</p></td>
+<td style="text-align: center;"><p>](fig/speakers/jaesung_choi.jpg){width=“100”} | -</p>
+<pre><code>                                                   | -   대학에</code></pre></td>
+<td style="text-align: left;"><p>사회과학 연구자의 R 동행기</p>
+<p>서 데이터 분석을 가르치고 사회과학 분야에서 실증 연구를 업으로 삼고 있는 사람은 왜 R에 관심을 가지게 되었고, 무엇을 익혔고, 어떤 일을 해왔을까? 사회과학 연구의 도구로서 R의 다양한 활용 가능성에 대한 생각을 나누어본다. </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><p>박상훈</p>
+<td style="text-align: center;"><p>박상훈 | ![</p>
 <p>University of South Carolina</p></td>
-<td style="text-align: center;"><img src="fig/speakers/sanghoon_park.jpg" width="100" /></td>
-<td style="text-align: left;"><ul>
-<li><p>재현가능한 연구를 위한 노력: R과 정치학의 만남</p></li>
-<li><p>다른 사회과학 분과들과 마찬가지로 정치학 역시 데이터 분석에 대한 중요성이 강조되어 왔다. 학부에서 SPSS, 대학원 석사과정에서 STATA, 그리고 박사과정에 들어서 R을 접하게 된 경험을 바탕으로 R이 정치학 연구에서 어떻게 자리잡아 왔으며,앞으로 어떻게 자리잡아 갈 것인지, R을 활용한 연구 과정에서 겪은 어려움 등에 대한 단상을 나누고자 한다.</p></li>
+<td style="text-align: center;">](fig/speakers/sanghoon_park.jpg){width=“100”} | -</td>
+<td style="text-align: left;"><p>재현가능한 연구를 위한 노력: R과 정치학의 만남</p>
+<ul>
+<li>다른 사회과학 분과들과 마찬가지로 정치학 역시 데이터 분석에 대한 중요성이 강조되어 왔다. 학부에서 SPSS, 대학원 석사과정에서 STATA, 그리고 박사과정에 들어서 R을 접하게 된 경험을 바탕으로 R이 정치학 연구에서 어떻게 자리잡아 왔으며,앞으로 어떻게 자리잡아 갈 것인지, R을 활용한 연구 과정에서 겪은 어려움 등에 대한 단상을 나누고자 한다.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><p>이민호/김상현</p>
-<p><a href="https://www.datarize.ai/">데이터라이즈</a></p></td>
-<td style="text-align: center;"><img src="fig/speakers/datarize.gif" width="100" /></td>
-<td style="text-align: left;"><ul>
-<li><p>프로덕션 수준의 리포트 자동화 시스템 만들기</p></li>
-<li><p>다양한 고객사 요구사항에 유연하게 대응하기 위한 리포트 자동화 시스템을 구축하는 과정에 대해 정리합니다. 프로덕션 수준의 운영 환경을 R로 구성하면서 고민했던 점들과 문제를 해결하기 위해 선택했던 방법들을 공유합니다.</p></li>
-</ul></td>
+<td style="text-align: center;"><p>이민호/김상현 | [](f</p>
+<p><a href="https://www.datarize.ai/">데이터라이즈</a> |</p></td>
+<td style="text-align: center;"><p>ig/speakers/datarize.gif){width=“100”} | - 프</p>
+<pre><code>                                                     | -   다</code></pre></td>
+<td style="text-align: left;"><p>로덕션 수준의 리포트 자동화 시스템 만들기</p>
+<p>양한 고객사 요구사항에 유연하게 대응하기 위한 리포트 자동화 시스템을 구축하는 과정에 대해 정리합니다. 프로덕션 수준의 운영 환경을 R로 구성하면서 고민했던 점들과 문제를 해결하기 위해 선택했던 방법들을 공유합니다.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><p>이준혁</p>
+<td style="text-align: center;"><p>이준혁 | ![</p>
 <p><a href="https://www.seegene.co.kr/">Seegene</a></p></td>
-<td style="text-align: center;"><img src="fig/speakers/joonhyuk_lee.jpg" width="58" /></td>
-<td style="text-align: left;"><ul>
-<li><p>Infinite Shiny World</p></li>
-<li><p>Shiny Open Source로 활용할 수 있는 모든 것을 알려드림. Shiny Proxy , Shiny dashboard 등의 활용 측면 경험 공유. 누구나 쉽게 구현가능한 Shiny 노하우를 경험하실 수 있습니다.</p></li>
+<td style="text-align: center;">](fig/speakers/joonhyuk_lee.jpg){width=“58”} | -</td>
+<td style="text-align: left;"><p>Infinite Shiny World</p>
+<ul>
+<li>Shiny Open Source로 활용할 수 있는 모든 것을 알려드림. Shiny Proxy , Shiny dashboard 등의 활용 측면 경험 공유. 누구나 쉽게 구현가능한 Shiny 노하우를 경험하실 수 있습니다.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><p><a href="http://www.postech.ac.kr/~hyelee">이혜선</a></p>
+<td style="text-align: center;"><p><a href="http://www.postech.ac.kr/~hyelee">이혜선</a> | ![</p>
 <p><a href="https://postech.ac.kr/">Postech</a></p></td>
-<td style="text-align: center;"><img src="fig/speakers/hyeseon_lee.jpg" width="100" /></td>
-<td style="text-align: left;"><ul>
-<li><p>데이터사이언스와 오픈소스</p></li>
-<li><p>데이터사이언스/오픈소스와 공유데이터/파이선과 R/미래의 플랫폼</p></li>
+<td style="text-align: center;">](fig/speakers/hyeseon_lee.jpg){width=“100”} | -</td>
+<td style="text-align: left;"><p>데이터사이언스와 오픈소스</p>
+<ul>
+<li>데이터사이언스/오픈소스와 공유데이터/파이선과 R/미래의 플랫폼</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><p>이남신</p>
-<p><a href="https://www.op.gg/">오피지지</a></p></td>
-<td style="text-align: center;"><img src="fig/speakers/namshin_lee.jpeg" width="100" /></td>
-<td style="text-align: left;"><ul>
-<li><p>실제 기업 서비스에서 R 활용하기</p></li>
-<li><p>이번 발표에서는 Docker와 Kubernetes를 활용하여 R로 쓰인 분석 모델을 기업의 라이브 서비스에 적용하고, 동료와 공유하는 방법을 말씀드리려 합니다.</p></li>
-</ul></td>
+<td style="text-align: center;"><p>이남신 | ![</p>
+<p><a href="https://www.op.gg/">오피지지</a> |</p></td>
+<td style="text-align: center;"><p>](fig/speakers/namshin_lee.jpeg){width=“100”} | -</p>
+<pre><code>                                                       | -</code></pre></td>
+<td style="text-align: left;"><p>실제 기업 서비스에서 R 활용하기</p>
+<p>이번 발표에서는 Docker와 Kubernetes를 활용하여 R로 쓰인 분석 모델을 기업의 라이브 서비스에 적용하고, 동료와 공유하는 방법을 말씀드리려 합니다.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><p><a href="https://github.com/cardiomoon">문건웅</a></p>
-<p>가톨릭의대</p></td>
-<td style="text-align: center;"><img src="fig/speakers/keonwoong_moon.jpg" width="100" height="77" /></td>
-<td style="text-align: left;"><ul>
-<li><p>Reproducible Research with Table</p></li>
-<li><p>R package ‘rrtable’ makes it possible to make reports with HTML, LaTex, MS word or MS Powerpoint formats from a table of R codes.</p></li>
-</ul></td>
+<td style="text-align: center;"><p><a href="https://github.com/cardiomoon">문건웅</a> | ![</p>
+<p>가톨릭의대 |</p></td>
+<td style="text-align: center;"><p>](fig/speakers/keonwoong_moon.jpg){width=“100” height=“77”} | -</p>
+<pre><code>                                                      | -</code></pre></td>
+<td style="text-align: left;"><p>Reproducible Research with Table</p>
+<p>R package ‘rrtable’ makes it possible to make reports with HTML, LaTex, MS word or MS Powerpoint formats from a table of R codes.</p></td>
 </tr>
 </tbody>
 </table>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
