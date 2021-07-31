@@ -22,6 +22,9 @@ knitr::opts_chunk$set(echo = FALSE)
 - 장소: 온라인 라이브
     -   연사분 촬영장소: [롯데월드타워 35층 원티드랩](https://www.lwt.co.kr/en/main/main.do) (서울 송파구 올림픽로 300)
 
+# 주최 및 주관
+
+- **R 사용자회**
 
 # 연락처
 
