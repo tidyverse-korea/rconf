@@ -90,7 +90,7 @@ speakers_tbl_gt %>%
     subtitle = md("*오픈 커뮤니티, 스타트업, 국내외 대학, 병원, 산업계*")
   ) %>% 
   tab_source_note(
-    source_note = md("한국 R 컨퍼런스: <https://use-r.kr/>")
+    source_note = md("**R 사용자회**: 상기 발표내용은 사정에 따라 변경될 수 있습니다.")
   ) %>% 
   tab_options(
     heading.background.color = "#1E61B0", # R logo 파란색
