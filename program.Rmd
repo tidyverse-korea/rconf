@@ -56,7 +56,7 @@ library(readxl)
 keynote <- tribble(~"구분", ~"시간", ~"발표자명", ~"소속", ~"발표제목", ~"국가", ~"파일명",
                    "오프닝", "10:00~10:15", "OOO", "OOOO", "OOOOO", "한국", "opening_speaker.png",
                    "키노트", "10:15~11:00", "Julia Silge", "RStudio", "NLP and text modeling with tidymodels", "미국", "julia_silge.png",
-                   "키노트", "11:00~11:45",  "유충현", "한화생명", "`dlookr` - AudoEDA", "한국", "choonghyun_ryu.png")
+                   "키노트", "11:00~11:45",  "유충현", "한화생명", "Again wind in Korea with GNU R", "한국", "choonghyun_ryu.png")
 
 keynote_tbl <- keynote %>% 
   ## ISO2 국기 -----------------------------------------
