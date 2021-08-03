@@ -20,6 +20,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # News
 
+-   [2021-08-03] 베가스 후원 및 박성우 연구원님 발표 수락 !!!
+
+    -   ![](fig/begas_logo.png){width="188"}
+
 -   [2021-07-26] 한국 R 컨퍼런스 발표자 템플릿 초안 공개합니다!!!
 
     -   [발표자 템플릿](https://github.com/tidyverse-korea/templates)
@@ -30,11 +34,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 -   [2021-07-20] 한국 R 컨퍼런스 명칭과 로고 변경
 
-    -   ![](fig/koRea_logo.png){width="33%"}
+    -   ![](fig/koRea_logo.png){width="40%"}
 
 -   [2021-07-16] R Consortium 후원 확정
 
-    -   [![](fig/R_Consortium-logo-horizontal-color.png){width="30%"}](https://www.r-consortium.org/)
+    -   [![](fig/R_Consortium-logo-horizontal-color.png){width="36%"}](https://www.r-consortium.org/)
 
 -   **[2021-07-15] useR! 2021 Korea 컨퍼런스 발표자 모집 시작합니다.**
 
