@@ -20,6 +20,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # News
 
+
+-   **[2021-08-08] 한국 R 컨퍼런스 발표자 모집 마감일(8월30일) 준수해 주세요.**
+
+    -   [발표 신청](https://victorlee5.typeform.com/to/EJK7aEva)
+
+-   [2021-08-08] 발표자료(a.k.a. 파워포인즈 PPT) 제작 Hands-On 워크샵이 있습니다.
+
+    -   [한국 R 컨퍼런스 - 핸즈온 참가 신청](https://festa.io/events/1726)
+
 -   [2021-08-03] 베가스 후원 및 박성우 연구원님 발표 수락 !!!
 
     -   ![](fig/begas_logo.png){width="188"}
@@ -40,7 +49,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
     -   [![](fig/R_Consortium-logo-horizontal-color.png){width="36%"}](https://www.r-consortium.org/)
 
--   **[2021-07-15] useR! 2021 Korea 컨퍼런스 발표자 모집 시작합니다.**
+-   [2021-07-15] useR! 2021 Korea 컨퍼런스 발표자 모집 시작합니다.
 
     -   [발표 신청](https://victorlee5.typeform.com/to/EJK7aEva)
 
