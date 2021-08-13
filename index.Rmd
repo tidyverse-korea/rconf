@@ -20,6 +20,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # News
 
+-   [2021-08-17] R 마크다운 책(전자책) 제작 Hands-On 워크샵이 있습니다.
+
+    -   [한국 R 컨퍼런스 - 전자책 제작 Hands-On 신청](https://festa.io/events/1726)
+    
 -   [2021-08-03] 베가스 후원 및 박성우 연구원님 발표 수락 !!!
 
     -   ![](fig/begas_logo.png){width="188"}

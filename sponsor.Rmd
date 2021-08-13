@@ -12,9 +12,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Gold
 
-|     |     |                                                                                             |     |     |
-|-----|-----|---------------------------------------------------------------------------------------------|-----|-----|
-|     |     | [![](fig/R_Consortium-logo-vertical-color.png){width="100"}](https://www.r-consortium.org/) |     |     |
+|     |                                                                                             |     |                                       |     |
+|-----|---------------------------------------------------------------------------------------------|-----|---------------------------------------|-----|
+|     | [![](fig/R_Consortium-logo-vertical-color.png){width="100"}](https://www.r-consortium.org/) |     | ![](fig/wanted_logo.jpg){width="100"} |     |
 
 ### Silver
 
