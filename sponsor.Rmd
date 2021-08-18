@@ -27,8 +27,8 @@ knitr::opts_chunk$set(echo = FALSE)
 ### Violet
 
 |     |     |                                                                   |     |     |
-|-----|-----|-------------------------------------------------------------------|-----|-----|
-|     |     | [![](fig/jpub-logo.jpeg){width="100"}](https://jpub.tistory.com/) |     |     |
+|-----|-----|-------------------------------------------------------------------|---------------|-----|
+|     |     | [![](fig/jpub-logo.jpeg){width="100"}](https://jpub.tistory.com/) |[![](fig/insight_logo.jpg){width="100"}](https://blog.insightbook.co.kr/)      |     |
 
 ### Media & Community
 
