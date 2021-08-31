@@ -10,7 +10,6 @@ editor_options:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-
 ```{r google-sheet}
 library(tidyverse)
 # library(googlesheets4)
@@ -38,7 +37,6 @@ session_02_tbl <- program_tbl %>%
   set_names(c("시간", "실시간 라이브", "동영상 녹화")) %>% 
   mutate(시간 = glue::glue("{str_pad(hour(시간), width=2, pad= 0)} : {str_pad(minute(시간), width=2, pad= 0)}"))
 ```
-
 
 ## 환영인사 & Keynotes
 
@@ -220,3 +218,8 @@ speakers_tbl_gt %>%
 
 ```
 
+<center>
+
+[![](fig/btn.png){width="280"}](https://www.wanted.co.kr/events/r_conference)
+
+</center>
