@@ -10,9 +10,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Early Birds 참여자 등록
 
-[![](fig/registration_early_birds.jpg){width="600"}](https://www.wanted.co.kr/events/r_conference)
-
 <center>
+
+[![](fig/registration_early_birds.jpg){width="600"}](https://www.wanted.co.kr/events/r_conference)
 
 [![](fig/btn.png){width="280"}](https://www.wanted.co.kr/events/r_conference)
 
