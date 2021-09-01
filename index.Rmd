@@ -20,6 +20,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # News
 
+-   [2021-09-01] 한국 R 컨퍼런스 Early Birds 150명 신청받습니다.
+
+    -   [**참가신청**](https://www.wanted.co.kr/events/r_conference)
+
 -   [2021-08-18] 도서출판 인사이트 스폰서 확정
 
     -   ![](fig/insight_logo.jpg){width="185" height="101"}
