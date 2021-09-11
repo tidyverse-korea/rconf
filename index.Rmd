@@ -20,6 +20,12 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # News
 
+-   [2021-09-11] 정보통신산업진흥원(NIPA) 스폰터 확정
+
+    -   ![](fig/nipa_logo.jpg){width="185" height="101"}
+
+-   [2021-09-10] 한국 R 컨퍼런스 Early Birds 마감합니다.
+
 -   [2021-09-01] 한국 R 컨퍼런스 Early Birds 150명 신청받습니다.
 
     -   [**참가신청**](https://www.wanted.co.kr/events/r_conference)
@@ -27,11 +33,11 @@ knitr::opts_chunk$set(echo = FALSE)
 -   [2021-08-18] 도서출판 인사이트 스폰서 확정
 
     -   ![](fig/insight_logo.jpg){width="185" height="101"}
-    
+
 -   [2021-08-17] R 마크다운 책(전자책) 제작 Hands-On 워크샵이 있습니다.
 
     -   [한국 R 컨퍼런스 - 전자책 제작 Hands-On 신청](https://festa.io/events/1726)
-    
+
 -   **[2021-08-08] 한국 R 컨퍼런스 발표자 모집 마감일(8월30일) 준수해 주세요.**
 
     -   [발표 신청](https://victorlee5.typeform.com/to/EJK7aEva)

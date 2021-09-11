@@ -220,6 +220,5 @@ speakers_tbl_gt %>%
 
 <center>
 
-[![](fig/btn.png){width="280"}](https://www.wanted.co.kr/events/r_conference)
 
 </center>
