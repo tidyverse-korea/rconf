@@ -8,6 +8,9 @@ editor_options:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+
+# https://github.com/rstudio/distill/issues/11
+xaringanExtra::use_panelset()
 ```
 
 ```{r google-sheet}
@@ -138,9 +141,20 @@ keynote_tbl_gt %>%
     locations = cells_row_groups())
 ```
 
-## 본 프로그램
 
-```{r main-program}
+# 프로그램
+
+::: l-page
+
+::::: {.panelset}
+
+
+::: {.panel}
+
+## 실시간 라이브 {.panel-name}
+
+
+```{r main-program, layout="l-body-outset"}
 # 0. 팩키지 -------------
 library(tidyverse)
 library(magick)
@@ -151,9 +165,10 @@ library(readxl)
 # 1. 발표자 -------
 # https://statkclee.github.io/data-science/ds-rconf-profile.html
 
-speakers <- read_excel("data/발표자_대쉬보드.xlsx", sheet = "speakers")
+program <- read_excel("data/발표자_대쉬보드.xlsx", sheet = "program")
 
-speakers_tbl <- speakers %>% 
+program_tbl <- program %>% 
+  filter(구분 == "실시간 라이브") %>% 
   ## ISO2 국기 -----------------------------------------
   mutate(iso2 = ifelse(국가 == "한국", "kr", "us")) %>% 
   mutate(flag_URL = glue::glue('data/worldflags/{iso2}.png')) %>% 
@@ -163,11 +178,12 @@ speakers_tbl <- speakers %>%
                                    glue::glue("{fs::path_ext_remove(파일명)}_face_mask.png"))) %>% 
   mutate(profile_photo = glue::glue('data/speakers_mask/{파일명}')) %>% 
   ## 표에 표시할 칼럼  -----------------------------------------
-  select(flag_URL, profile_photo, 발표자명, 소속, 발표제목) 
+  select(발표시간, flag_URL, profile_photo, 발표자명, 소속, 발표)  %>% 
+  arrange(발표시간)
   # ## 어수행 오류 -----
   # filter(!str_detect(발표자명, "어수행|박상훈|이민호"))
 
-speakers_tbl_gt <- speakers_tbl %>% 
+program_tbl_gt <- program_tbl %>% 
   ## ISO2 국기 표에 삽입 -----------------------------------------
   gt() %>% 
   gt::text_transform(  
@@ -191,11 +207,16 @@ speakers_tbl_gt <- speakers_tbl %>%
         height = 50
       ))
     }) %>% 
-    cols_width(columns = c(profile_photo) ~ px(100)) %>% 
+    cols_width( flag_URL ~ px(50),
+                profile_photo ~ px(70),
+                발표자명 ~ px(100),
+                소속 ~ px(150),
+                발표 ~ px(500)
+    ) %>% 
     cols_label(profile_photo = "")
   
 
-speakers_tbl_gt %>% 
+program_tbl_gt %>% 
   tab_header(
     title = md("**&#x2600; 한국 R 컨퍼런스 프로그램 &#x2600;**"),
     subtitle = md("*NLP, 웹앱, 예측, 재현가능 과학, 산업현장, 사회과학 ...*")
@@ -214,7 +235,103 @@ speakers_tbl_gt %>%
   cols_align(
     align = "center",
     columns = everything()
-  )  
+  ) %>% 
+    gt::fmt_markdown(columns = `발표`)
+
+```
+
+
+:::
+
+
+::: {.panel}
+
+## 동영상 녹화 {.panel-name}
+
+
+```{r main-program-record, layout="l-body-outset"}
+# 0. 팩키지 -------------
+library(tidyverse)
+library(magick)
+library(opencv)
+library(gt)
+library(readxl)
+
+# 1. 발표자 -------
+# https://statkclee.github.io/data-science/ds-rconf-profile.html
+
+program <- read_excel("data/발표자_대쉬보드.xlsx", sheet = "program")
+
+program_tbl <- program %>% 
+  filter(구분 == "동영상 녹화") %>% 
+  ## ISO2 국기 -----------------------------------------
+  mutate(iso2 = ifelse(국가 == "한국", "kr", "us")) %>% 
+  mutate(flag_URL = glue::glue('data/worldflags/{iso2}.png')) %>% 
+  ## 발표자 사진  -----------------------------------------
+  mutate(파일명 = ifelse(str_detect(파일명, "datarize"), 
+                                   glue::glue("{fs::path_ext_remove(파일명)}_face_mask.gif"),
+                                   glue::glue("{fs::path_ext_remove(파일명)}_face_mask.png"))) %>% 
+  mutate(profile_photo = glue::glue('data/speakers_mask/{파일명}')) %>% 
+  ## 표에 표시할 칼럼  -----------------------------------------
+  select(발표시간, flag_URL, profile_photo, 발표자명, 소속, 발표)  %>% 
+  arrange(발표시간)
+  # ## 어수행 오류 -----
+  # filter(!str_detect(발표자명, "어수행|박상훈|이민호"))
+
+program_tbl_gt <- program_tbl %>% 
+  ## ISO2 국기 표에 삽입 -----------------------------------------
+  gt() %>% 
+  gt::text_transform(  
+    locations = cells_body(columns = flag_URL),    
+    fn = function(x) {
+      # loop over the elements of the column
+      map_chr(x, ~ local_image(
+        filename = .x,
+        height = 20
+      ))
+    }) %>%   
+  # Hide column header flag_URL and reduce width
+    cols_width(columns = c(flag_URL) ~ px(50)) %>% 
+    cols_label(flag_URL = "") %>% 
+    ## 발표자 사진 표에 삽입 -----------------------------------------
+  text_transform(
+    locations = cells_body(columns = c(profile_photo)),
+    fn = function(x) {
+      map_chr(x, ~ local_image(
+        filename = .x,
+        height = 50
+      ))
+    }) %>% 
+    cols_width( flag_URL ~ px(50),
+              profile_photo ~ px(70),
+              발표자명 ~ px(100),
+              소속 ~ px(150),
+              발표 ~ px(500)
+    ) %>% 
+    cols_label(profile_photo = "")
+  
+
+program_tbl_gt %>% 
+  tab_header(
+    title = md("**&#x2600; 한국 R 컨퍼런스 프로그램 &#x2600;**"),
+    subtitle = md("*NLP, 웹앱, 예측, 재현가능 과학, 산업현장, 사회과학 ...*")
+  ) %>% 
+  tab_source_note(
+    source_note =  md("**R 사용자회**: 상기 발표내용은 사정에 따라 변경될 수 있습니다.")
+  ) %>% 
+  tab_options(
+    heading.background.color = "#1E61B0", # R logo 파란색
+    heading.title.font.size = "32px",
+    column_labels.background.color = "#F7F7F7", # R logo 회색 
+    column_labels.font.weight = "bold",
+    stub.background.color = "#bcbddc",
+    stub.font.weight = "bold"
+  ) %>% 
+  cols_align(
+    align = "center",
+    columns = everything()
+  ) %>% 
+    gt::fmt_markdown(columns = `발표`)
 
 ```
 
@@ -222,3 +339,13 @@ speakers_tbl_gt %>%
 
 
 </center>
+
+:::
+
+
+:::::
+
+:::
+
+
+

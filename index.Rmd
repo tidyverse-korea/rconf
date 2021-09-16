@@ -20,6 +20,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # News
 
+-   [2021-09-16] 실시간 라이브, 동영상 녹화 발표자 선정 완료
+
 -   [2021-09-11] 정보통신산업진흥원(NIPA) 스폰터 확정
 
     -   ![](fig/nipa_logo.jpg){width="185" height="101"}
