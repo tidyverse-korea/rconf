@@ -2,6 +2,8 @@
 title: "발표자"
 description: |
   국내외 데이터 과학 R/Tidyverse 발전에 기여 및 비젼을 제시해주신 분들이 함께 지식과 경험을 나누는 자리입니다
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -29,7 +31,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # 프로그램 발표
 
-```{r volunteer-speakers}
+```{r volunteer-speakers, layout="l-body-outset"}
+
 # 0. 팩키지 -------------
 library(tidyverse)
 library(magick)
@@ -52,7 +55,7 @@ speakers_tbl <- speakers %>%
                                    glue::glue("{fs::path_ext_remove(파일명)}_face_mask.png"))) %>% 
   mutate(profile_photo = glue::glue('data/speakers_mask/{파일명}')) %>% 
   ## 표에 표시할 칼럼  -----------------------------------------
-  select(flag_URL, profile_photo, 발표자명, 소속, 발표제목초록) 
+  select(flag_URL, profile_photo, 발표자명, 소속, 발표자소개) 
   # ## 어수행 오류 -----
   # filter(!str_detect(발표자명, "어수행|박상훈|이민호"))
 
@@ -106,16 +109,16 @@ speakers_tbl_gt %>%
   ) %>%
   cols_align(
     align = "left",
-    columns = 발표제목초록
+    columns = 발표자소개
   ) %>%  
   cols_width(
     flag_URL ~ px(50),
-    profile_photo ~ px(100),
+    profile_photo ~ px(50),
     발표자명 ~ px(100),
     소속 ~ px(150),
-    발표제목초록 ~ px(500)
+    발표자소개 ~ px(500)
   ) %>% 
-  gt::fmt_markdown(columns = `발표제목초록`)
+  gt::fmt_markdown(columns = `발표자소개`)
 
 ```
 
