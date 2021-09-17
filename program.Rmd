@@ -250,7 +250,11 @@ program_tbl_gt %>%
   ) %>% 
   cols_align(
     align = "center",
-    columns = everything()
+    columns = -`발표`
+  ) %>% 
+  cols_align(
+    align = "left",
+    columns = `발표`
   ) %>% 
     gt::fmt_markdown(columns = `발표`)
 
@@ -345,7 +349,11 @@ program_tbl_gt %>%
   ) %>% 
   cols_align(
     align = "center",
-    columns = everything()
+    columns = -`발표`
+  ) %>% 
+  cols_align(
+    align = "left",
+    columns = `발표`
   ) %>% 
     gt::fmt_markdown(columns = `발표`)
 
