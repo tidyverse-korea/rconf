@@ -13,6 +13,22 @@ knitr::opts_chunk$set(echo = FALSE)
 xaringanExtra::use_panelset()
 ```
 
+
+```{r panelset-style, echo=FALSE}
+xaringanExtra::style_panelset_tabs(
+  foreground = "#F7F7F7",
+  background = "#1E61B0",
+  active_foreground = "#F7F7F7", # R logo 회색
+  active_background = "#1E61B0", # R logo 파란색
+  active_border_color = "#1E61B0",
+  hover_foreground = "#F7F7F7",
+  hover_background = "#1E6190",
+  hover_border_color = "#1E6190",
+  inactive_opacity = 0.5
+)
+```
+
+
 ```{r google-sheet}
 library(tidyverse)
 # library(googlesheets4)
@@ -151,7 +167,7 @@ keynote_tbl_gt %>%
 
 ::: {.panel}
 
-## 실시간 라이브 {.panel-name}
+## ::: 실시간 라이브 ::: {.panel-name}
 
 
 ```{r main-program, layout="l-body-outset"}
@@ -246,7 +262,7 @@ program_tbl_gt %>%
 
 ::: {.panel}
 
-## 동영상 녹화 {.panel-name}
+## ::: 동영상 녹화 ::: {.panel-name}
 
 
 ```{r main-program-record, layout="l-body-outset"}
