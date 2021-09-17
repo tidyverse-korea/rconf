@@ -57,7 +57,7 @@ session_02_tbl <- program_tbl %>%
   mutate(시간 = glue::glue("{str_pad(hour(시간), width=2, pad= 0)} : {str_pad(minute(시간), width=2, pad= 0)}"))
 ```
 
-## 환영인사 & Keynotes
+## 오프닝 & Keynotes
 
 ```{r keynote-reactable}
 # 0. 팩키지 -------------
@@ -71,9 +71,9 @@ library(readxl)
 # https://statkclee.github.io/data-science/ds-rconf-profile.html
 
 keynote <- tribble(~"구분", ~"시간", ~"발표자명", ~"소속", ~"발표제목", ~"국가", ~"파일명",
-                   "오프닝", "10:00~10:15", "OOO", "OOOO", "OOOOO", "한국", "opening_speaker.png",
-                   "키노트", "10:15~11:00", "Julia Silge", "RStudio", "NLP and text modeling with tidymodels", "미국", "julia_silge.png",
-                   "키노트", "11:00~11:45",  "유충현", "한화생명", "Again wind in Korea with GNU R", "한국", "choonghyun_ryu.png")
+                   "오프닝", "10:00~10:05", "이광춘", "R 사용자회", "### 오프닝", "한국", "kwangchun_lee.jpg",
+                   "키노트", "10:10~11:00", "Julia Silge", "RStudio", "### Data visualization for machine learning practitioners", "미국", "julia_silge.png",
+                   "키노트", "11:00~11:45",  "유충현", "한화생명", "### Again wind in Korea with GNU R", "한국", "choonghyun_ryu.png")
 
 keynote_tbl <- keynote %>% 
   ## ISO2 국기 -----------------------------------------
@@ -238,7 +238,7 @@ program_tbl_gt %>%
     subtitle = md("*NLP, 웹앱, 예측, 재현가능 과학, 산업현장, 사회과학 ...*")
   ) %>% 
   tab_source_note(
-    source_note =  md("**R 사용자회**: 상기 발표내용은 사정에 따라 변경될 수 있습니다.")
+    source_note =  md("**R 사용자회**: 코로나 19로 인해 일부 동영상 녹화 발표가 실시간 라이브로 배정되었습니다. 상기 발표내용은 사정에 따라 변경될 수 있습니다.")
   ) %>% 
   tab_options(
     heading.background.color = "#1E61B0", # R logo 파란색
@@ -337,7 +337,7 @@ program_tbl_gt %>%
     subtitle = md("*NLP, 웹앱, 예측, 재현가능 과학, 산업현장, 사회과학 ...*")
   ) %>% 
   tab_source_note(
-    source_note =  md("**R 사용자회**: 상기 발표내용은 사정에 따라 변경될 수 있습니다.")
+    source_note =  md("**R 사용자회**: 코로나 19로 인해 일부 동영상 녹화 발표가 실시간 라이브로 배정되었습니다. 상기 발표내용은 사정에 따라 변경될 수 있습니다.")
   ) %>% 
   tab_options(
     heading.background.color = "#1E61B0", # R logo 파란색
