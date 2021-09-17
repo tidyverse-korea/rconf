@@ -80,7 +80,7 @@ speakers_tbl_gt <- speakers_tbl %>%
     fn = function(x) {
       map_chr(x, ~ local_image(
         filename = .x,
-        height = 50
+        height = 96
       ))
     }) %>% 
     cols_width(columns = c(profile_photo) ~ px(100)) %>% 
@@ -113,7 +113,7 @@ speakers_tbl_gt %>%
   ) %>%  
   cols_width(
     flag_URL ~ px(50),
-    profile_photo ~ px(50),
+    profile_photo ~ px(100),
     발표자명 ~ px(100),
     소속 ~ px(150),
     발표자소개 ~ px(500)

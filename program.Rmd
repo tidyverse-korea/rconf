@@ -220,7 +220,7 @@ program_tbl_gt <- program_tbl %>%
     fn = function(x) {
       map_chr(x, ~ local_image(
         filename = .x,
-        height = 50
+        height = 66
       ))
     }) %>% 
     cols_width( flag_URL ~ px(50),
@@ -319,7 +319,7 @@ program_tbl_gt <- program_tbl %>%
     fn = function(x) {
       map_chr(x, ~ local_image(
         filename = .x,
-        height = 50
+        height = 66
       ))
     }) %>% 
     cols_width( flag_URL ~ px(50),
