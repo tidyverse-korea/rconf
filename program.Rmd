@@ -72,7 +72,7 @@ library(readxl)
 
 keynote <- tribble(~"구분", ~"시간", ~"발표자명", ~"소속", ~"발표제목", ~"국가", ~"파일명",
                    "오프닝", "10:00~10:05", "이광춘", "R 사용자회", "### 오프닝", "한국", "kwangchun_lee.jpg",
-                   "키노트", "10:10~11:00", "Julia Silge", "RStudio", "### Data visualization for machine learning practitioners", "미국", "julia_silge.png",
+                   "키노트", "10:05~11:00", "Julia Silge", "RStudio", "### Data visualization for machine learning practitioners", "미국", "julia_silge.png",
                    "키노트", "11:00~11:45",  "유충현", "한화생명", "### Again wind in Korea with GNU R", "한국", "choonghyun_ryu.png")
 
 keynote_tbl <- keynote %>% 
