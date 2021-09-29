@@ -20,6 +20,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # News
 
+-   [2021-09-30] 한국 R 컨퍼런스 [참가신청](registration.html) 받습니다.
+
+    -   [![](fig/btn.png){width="148"}](https://www.wanted.co.kr/events/r_conference)
+
 -   [2021-09-29] [데이콘](https://dacon.io/) 스폰터 확정
 
     -   ![](fig/dacon-logo.png){width="141" height="105"}

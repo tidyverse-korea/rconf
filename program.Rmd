@@ -359,17 +359,18 @@ program_tbl_gt %>%
 
 ```
 
-<center>
-
-
-</center>
 
 :::
-
 
 :::::
 
 :::
 
+
+<center>
+
+[![](fig/btn.png){width="276"}](https://www.wanted.co.kr/events/r_conference)
+
+</center>
 
 
