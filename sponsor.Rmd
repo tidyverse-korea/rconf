@@ -28,9 +28,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Violet
 
-|     |                                                                   |     |                                                                           |     |
-|-----|-------------------------------------------------------------------|-----|---------------------------------------------------------------------------|-----|
-|     | [![](fig/jpub-logo.jpeg){width="100"}](https://jpub.tistory.com/) |     | [![](fig/insight_logo.jpg){width="100"}](https://blog.insightbook.co.kr/) |     |
+|                                      |     |                                                                   |     |                                                                           |
+|--------------------------------------|-----|-------------------------------------------------------------------|-----|---------------------------------------------------------------------------|
+| ![](fig/dacon-logo.png){width="100"} |     | [![](fig/jpub-logo.jpeg){width="100"}](https://jpub.tistory.com/) |     | [![](fig/insight_logo.jpg){width="100"}](https://blog.insightbook.co.kr/) |
 
 ### Media & Community
 

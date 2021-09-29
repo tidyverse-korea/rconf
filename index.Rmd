@@ -20,6 +20,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # News
 
+-   [2021-09-29] [데이콘](https://dacon.io/) 스폰터 확정
+
+    -   ![](fig/dacon-logo.png){width="141" height="105"}
+
 -   [2021-09-28] [한국 R 컨퍼런스 한겨레 신문 언론 보도](https://www.hani.co.kr/arti/science/science_general/1012214.html)
 
     -   ![](fig/hani-rconf.jpg){width="189"}
