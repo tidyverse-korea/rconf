@@ -20,6 +20,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # News
 
+-   [2021-10-06] 한국 R 컨퍼런스 변경된 로고를 만나보세요!!!
+
+    -   ![](fig/koRea_logo.png){width="322" height="81"}
+
 -   [2021-09-30] 한국 R 컨퍼런스 [참가신청](registration.html) 받습니다.
 
     -   [![](fig/btn.png){width="148"}](https://www.wanted.co.kr/events/r_conference)
