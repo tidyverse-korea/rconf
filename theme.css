@@ -14,6 +14,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR');
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo');
 
 
 html {
@@ -32,7 +33,7 @@ html {
   /*-- Specify custom fonts ~~~ must be imported above   --*/
   --heading-font:    'Noto Sans KR', sans-serif;
   --mono-font:       'DM Mono', monospace;
-  --body-font:       'Noto Serif KR', serif;
+  --body-font:       'Nanum Myeongjo', serif;
   --navbar-font:     'Noto Sans KR', sans-serif;  /* websites + blogs only */
 }
 
