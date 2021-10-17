@@ -20,6 +20,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # News
 
+-   [2021-10-17] 참석자분 전원 저자 사인이 담긴 책을 나눠주고 저자와 함께 하는 튜토리얼 [**R 핸즈온** 참여신청](https://festa.io/events/1863)
+
+    -   ![](fig/r-handson.jpg){width="121" height="130"}
 
 -   [2021-10-06] 한국 R 컨퍼런스 변경된 로고를 만나보세요!!!
 
