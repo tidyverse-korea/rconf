@@ -20,6 +20,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # News
 
+-   [2021-09-29] [한국인더스트리4.0협회](http://www.intreeforum.org/) 스폰터 확정
+
+    -   [![](fig/intree_logo.jpg){width="176" height="63"}](http://www.intreeforum.org/)
+
 -   [2021-10-17] 참석자분 전원 저자 사인이 담긴 책을 나눠주고 저자와 함께 하는 튜토리얼 [**R 핸즈온** 참여신청](https://festa.io/events/1863)
 
     -   ![](fig/r-handson.jpg){width="121" height="130"}
