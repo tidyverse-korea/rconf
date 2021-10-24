@@ -40,7 +40,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Individuals
 
--   박문구 (삼정 KPMG)
+-   박문구 디지털혁신센터장 ![](fig/kpmg_logo.jpg){width="56" height="15"}
 
 # SNS
 
