@@ -34,9 +34,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Media & Community
 
-|     |                                                                |     |                                                                              |     |
-|-----|----------------------------------------------------------------|-----|------------------------------------------------------------------------------|-----|
-|     | [![](fig/hani_logo.jpg){width="100"}](https://www.hani.co.kr/) |     | [![](fig/datayanolja_logo.png){width="100"}](https://datayanolja.github.io/) |     |
+|     |                                                                |                                                                               |                                                                              |     |
+|-----|----------------------------------------------------------------|-------------------------------------------------------------------------------|------------------------------------------------------------------------------|-----|
+|     | [![](fig/hani_logo.jpg){width="100"}](https://www.hani.co.kr/) | [![](fig/it_chosun_logo.png){width="150" height="35"}](http://it.chosun.com/) | [![](fig/datayanolja_logo.png){width="100"}](https://datayanolja.github.io/) |     |
 
 ### Individuals
 
