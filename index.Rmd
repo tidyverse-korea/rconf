@@ -20,7 +20,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # News
 
--   [2021-09-29] [한국인더스트리4.0협회](http://www.intreeforum.org/) 스폰터 확정
+-   [2021-10-25] [한국 R 컨퍼런스 IT 조선 언론 보도](http://it.chosun.com/m/svc/article.html?contid=2021102401022)
+
+    -   ![](fig/it_chosun_logo.png){width="189"}
+
+-   [2021-10-24] [한국인더스트리4.0협회](http://www.intreeforum.org/) 스폰터 확정
 
     -   [![](fig/intree_logo.jpg){width="176" height="63"}](http://www.intreeforum.org/)
 
