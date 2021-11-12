@@ -1,29 +1,21 @@
 ---
 title: "Registartion"
 description: |
-  오래 기다리셨습니다. 드디어 한국 R 컨퍼런스 본 행사 등록을 시작합니다
+  한국 R 컨퍼런스 본 행사 등록이 마감되었습니다
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# 본행사 등록
+# ~~본행사 등록 마감~~
 
 <center>
 
 ![](fig/registration_main.jpg){width="600"}
-
-[![](fig/btn.png){width="276"}](https://www.wanted.co.kr/events/r_conference)
-
-[![](fig/book.jpg){width="600"}](http://ebook.insightbook.co.kr/)
 
 </center>
 
 # ~~Early Birds 참여자 등록 마감~~
 
 <center>
-
-[![](fig/book_early_birds.jpg){width="600"}](https://jpub.tistory.com/)
-
-</center>
