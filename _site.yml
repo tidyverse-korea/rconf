@@ -13,6 +13,8 @@ navbar:
   right:
     - text: "Home"
       href: index.html
+    - text: "Watch"
+      href: enter.html
     - text: "About"
       href: about.html
     - text: "Key Dates"

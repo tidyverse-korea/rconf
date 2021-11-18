@@ -20,6 +20,14 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # News
 
+-   [2021-11-19] 온라인 라이브 / 동영상 녹화 "한국 R 컨퍼런스" 비대면 입장해 주세요 !!!
+
+    -   행사 시작 10분 전에 등록하신 **전자우편으로 전달된 링크** 통해 참여해주세요.
+
+-   [2021-11-17] Julia Silge 박사님 강연 한글 번역 완료!!!
+
+    -   [한국 R 컨퍼런스 - Julia Silge Keynote번역](https://statkclee.github.io/deep-learning/rconf-keynote.html)
+
 -   [2021-11-12] 한국 R 컨퍼런스 참여자 모집 마감
 
 -   [2021-11-05] 키노트 및 발표 슬라이드/동영상 제출 마감
